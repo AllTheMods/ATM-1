@@ -1,0 +1,58 @@
+All The Mods 2.5 Changelog
+
+Updated Forge to 2254
+
+Removed
+
+BetterBedrockGen (enabled COFH FlatBedrock)
+Correlated Potentialistics
+LibrarianLib
+Mob Totems
+Refraction
+The Spice of Life
+
+
+Added
+
+Advanced Rocketry
+Blood Arsenal
+Cyclic
+Hunger Overhaul
+ReAuth
+Redstone Arsenal
+Woot
+
+
+Updated
+
+ArmorPlus
+Astral Sorcery
+Bed Bugs
+Blood Magic
+Bookshelf
+Cofh Core
+Cooking For Blockheads
+CraftTweaker
+Elecore
+EnderIO
+EnderTanks
+Engineers Workshop
+FTBUtilities
+FTBLib
+Just Enough Calculation
+Just Enough Items
+Mekanism
+Mekanism Generators
+Mekanism Tools
+Mystical Agriculture
+RFTools
+Roguelike Dungeons
+Shadowfact's Forgelin
+ShetiPhianCore
+Storage Drawers
+TechReborn
+Thermal Expansion
+Thermal Foundation
+UniDict
+Wireless Crafting Terminal
+XNet

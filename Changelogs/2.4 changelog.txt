@@ -1,0 +1,47 @@
+All The Mods 2.4 Changelog
+
+Updated Forge to 2239
+
+Added
+
+Angel Ring to Bauble
+Astral Sorcery
+Bad Wither No Cookie
+COFH Core
+Thermal Expansion
+Thermal Foundation
+XNet
+p455w0rdslib
+Wireless Crafting Terminal
+
+
+Updated
+
+Armor Plus
+Biomes O' Plenty
+Blood Magic
+Bookshelf
+Code Chicken Lib
+Cooking For Blockheads
+Crossroads
+Deep Resonance
+ElecCore
+Ender Storage
+Environmental Tech
+Extreme Reactors
+Forestry
+FTB Utilities
+FTBLib
+Immersive Engineering
+Iron Backpacks
+Just Enough Calculation
+Just Enough Items
+More Overlays
+Mystical Agriculture
+Natura
+OpenComputers
+RFTools
+The Spice of Life
+ValkyrieLib
+Vitality
+ZeroCore
