@@ -234,5 +234,65 @@
       "focusColor": "purple",
       "weight": 28
     }
+        {
+      "oreName": "oreRockCrystal",
+      "focusColor": "white",
+      "weight": 2
+    },
+   	{
+      "oreName": "oreAquamarine",
+      "focusColor": "light_blue",
+      "weight": 9
+    },
+  	{
+      "oreName": "oreProsperity",
+      "focusColor": "white",
+      "weight": 23
+    },
+  	{
+      "oreName": "oreInferium",
+      "focusColor": "green",
+      "weight": 30
+    },
+  	{
+      "oreName": "oreVinteum",
+      "focusColor": "blue",
+      "weight": 7
+    },
+		{
+      "oreName": "oreChimerite",
+      "focusColor": "light_gray",
+      "weight": 13
+    },
+		{
+      "oreName": "oreBlueTopaz",
+      "focusColor": "cyan",
+      "weight": 13
+    },
+  	{
+      "oreName": "oreCoralium",
+      "focusColor": "lime",
+      "weight": 6
+    },
+  	{
+      "oreName": "MonazitOre",
+      "focusColor": "green",
+      "weight": 16
+    },
+	  {
+      "oreName": "oreDilithium",
+      "focusColor": "orange",
+      "weight": 10
+    },
+	  {
+      "oreName": "oreTitanium",
+      "focusColor": "purple",
+      "weight": 14
+    },
+	  {
+      "oreName": "oreBauxite",
+      "focusColor": "brown",
+      "weight": 18
+    },
   ]
 }
