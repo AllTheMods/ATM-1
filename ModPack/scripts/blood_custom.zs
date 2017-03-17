@@ -9,6 +9,8 @@ val gold = <ore:ingotGold>;
 val copper = <ore:ingotCopper>;
 val bronze = <ore:ingotBronze>;
 val steel = <ore:ingotSteel>;
+val lead = <ore:ingotLead>;
+val silver = <ore:ingotSilver>;
 
 ## all Nether Metals ores
 <ore:oreIronNether>.add(<nethermetals:nether_iron_ore>);
@@ -125,22 +127,12 @@ recipes.addShaped(<substratum:gear:3> * 1, 	[[null, copper, null],
 recipes.addShaped(<substratum:gear:5> * 1, 	[[null, bronze, null],
 											[bronze, iron, bronze],
 											[null, bronze, null]]);
-										
 
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
+											
+# Ember Plates
+recipes.removeShapeless(<ore:plateGold>, [<embers:tinkerHammer>, gold, gold, gold, gold]);
+recipes.removeShapeless(<ore:plateCopper>, [<embers:tinkerHammer>, copper, copper, copper, copper]);
+recipes.removeShapeless(<ore:plateLead>, [<embers:tinkerHammer>, lead, lead, lead, lead]);
+recipes.removeShapeless(<ore:plateSilver>, [<embers:tinkerHammer>, silver, silver, silver, silver]);
+recipes.removeShapeless(<ore:plateIron>, [<embers:tinkerHammer>, iron, iron, iron, iron]);
+
