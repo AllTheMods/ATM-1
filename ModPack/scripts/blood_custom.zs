@@ -136,3 +136,12 @@ recipes.removeShapeless(<ore:plateLead>, [<embers:tinkerHammer>, lead, lead, lea
 recipes.removeShapeless(<ore:plateSilver>, [<embers:tinkerHammer>, silver, silver, silver, silver]);
 recipes.removeShapeless(<ore:plateIron>, [<embers:tinkerHammer>, iron, iron, iron, iron]);
 
+# Any chest to oak chest (since it conflicts)
+recipes.addShapeless(<minecraft:chest> * 1, [<quark:custom_chest:*>]);
+# same with bed
+recipes.addShapeless(<minecraft:bed> * 1, [<quark:colored_bed_item:*>]);
+
+# carbonplates fix
+recipes.removeShapeless(<techreborn:part:35>);
+recipes.addShapeless(<techreborn:part:35> * 2, [<ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>]);
+
