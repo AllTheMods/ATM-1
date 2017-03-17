@@ -8,6 +8,7 @@ val tin = <ore:ingotTin>;
 val gold = <ore:ingotGold>;
 val copper = <ore:ingotCopper>;
 val bronze = <ore:ingotBronze>;
+val steel = <ore:ingotSteel>;
 
 ## all Nether Metals ores
 <ore:oreIronNether>.add(<nethermetals:nether_iron_ore>);
@@ -86,12 +87,14 @@ val bronze = <ore:ingotBronze>;
 
 # Metalstick fixes
 # iron
-<ore:stickIron>.addAll(<ore:rodIron>);
-<ore:rodIron>.mirror(<ore:stickIron>);
-recipes.removeShaped(<ore:stickIron>, [[<ore:ingotIron>], [<ore:ingotIron>]]);
+recipes.removeShaped(<ore:rodIron>);
+recipes.removeShaped(<ore:stickIron>);
+recipes.addShaped(<substratum:rod:0> * 4, 	[[iron], [iron], [iron]]);
+
 # steel
-<ore:stickSteel>.addAll(<ore:rodSteel>);
-<ore:rodSteel>.mirror(<ore:stickSteel>);
+recipes.removeShaped(<ore:rodSteel>);
+recipes.removeShaped(<ore:stickSteel>);
+recipes.addShaped(<substratum:rod:11> * 4, 	[[steel], [steel], [steel]]);
 
 
 
