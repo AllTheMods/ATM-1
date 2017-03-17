@@ -1,5 +1,13 @@
-# Custom recipies made by BloodWorkXGaming
+# Custom recipes made by BloodWorkXGaming
 print("--- loading blood_custom.zs ---");
+
+
+# Some vals
+val iron = <ore:ingotIron>;
+val tin = <ore:ingotTin>;
+val gold = <ore:ingotGold>;
+val copper = <ore:ingotCopper>;
+val bronze = <ore:ingotBronze>;
 
 ## all Nether Metals ores
 <ore:oreIronNether>.add(<nethermetals:nether_iron_ore>);
@@ -76,9 +84,60 @@ print("--- loading blood_custom.zs ---");
 <ore:oreDraconiumNether>.add(<draconicevolution:draconium_ore:1>);
 
 
-# Templates
-# <ore:ore>.add(<:>);
+# Metalstick fixes
+# iron
+<ore:stickIron>.addAll(<ore:rodIron>);
+<ore:rodIron>.mirror(<ore:stickIron>);
+recipes.removeShaped(<ore:stickIron>, [[<ore:ingotIron>], [<ore:ingotIron>]]);
+# steel
+<ore:stickSteel>.addAll(<ore:rodSteel>);
+<ore:rodSteel>.mirror(<ore:stickSteel>);
 
 
 
+# Gearfixes
+recipes.removeShaped(<ore:gearIron>);	
+recipes.removeShaped(<ore:gearGold>);
+recipes.removeShaped(<ore:gearTin>);
+recipes.removeShaped(<ore:gearCopper>);	
+recipes.removeShaped(<ore:gearBronze>);
 
+# adding them back in											
+recipes.addShaped(<substratum:gear:1> * 1, 	[[null, iron, null],
+											[iron, iron, iron],
+											[null, iron, null]]);
+										
+recipes.addShaped(<substratum:gear:2> * 1, 	[[null, gold, null],
+											[gold, iron, gold],
+											[null, gold, null]]);										
+										
+recipes.addShaped(<substratum:gear:4> * 1, 	[[null, tin, null],
+											[tin, iron, tin],
+											[null, tin, null]]);
+										
+recipes.addShaped(<substratum:gear:3> * 1, 	[[null, copper, null],
+											[copper, iron, copper],
+											[null, copper, null]]);
+										
+recipes.addShaped(<substratum:gear:5> * 1, 	[[null, bronze, null],
+											[bronze, iron, bronze],
+											[null, bronze, null]]);
+										
+
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
