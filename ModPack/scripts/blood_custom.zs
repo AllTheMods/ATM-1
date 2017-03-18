@@ -152,6 +152,11 @@ recipes.addShapeless(<minecraft:bed> * 1, [<quark:colored_bed_item:*>]);
 recipes.removeShapeless(<techreborn:part:35>);
 recipes.addShapeless(<techreborn:part:35> * 2, [<ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>]);
 
+#neutrons
+recipes.remove(<techreborn:part:26>);
+recipes.addShaped(<techreborn:part:26> * 1, 	[[<ore:dustCoal>, <ore:dustTin>, <ore:dustCoal>],
+												[<ore:dustTin>, <ore:plateCopper>, <ore:dustTin>],
+												[<ore:dustCoal>, <ore:dustTin>, <ore:dustCoal>]]);
 
 
 
