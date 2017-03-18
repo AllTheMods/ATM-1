@@ -244,6 +244,7 @@
 	{
       "id": "chisel:limestoneextra",
       "meta": 7,
+      "focusColor": "lime",
       "weight": 14
     }
   ],
