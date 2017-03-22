@@ -1,0 +1,42 @@
+[
+	{
+		"entryName" : "dustSignalum",
+		"modIdPriorityList" :
+		[
+			"minecraft",
+			"thermalfoundation",
+			"substratum",
+			"ic2",
+			"mekanism",
+			"immersiveengineering",
+			"techreborn"
+		]
+	},
+	{
+		"entryName" : "dustLumium",
+		"modIdPriorityList" :
+		[
+			"minecraft",
+			"thermalfoundation",
+			"substratum",
+			"ic2",
+			"mekanism",
+			"immersiveengineering",
+			"techreborn"
+		]
+	},
+	{
+		"entryName" : "dustEnderium",
+		"modIdPriorityList" :
+		[
+			"minecraft",
+			"thermalfoundation",
+			"substratum",
+			"ic2",
+			"mekanism",
+			"immersiveengineering",
+			"techreborn"
+		]
+	}
+]
+]

@@ -1,0 +1,28 @@
+All The Mods 2.52b Changelog
+
+
+Config Changes
+
+Fixed some UniDict issues, (Mainly Plates, Gears and Rods)
+
+
+Removed Mods
+
+
+
+Added Mods
+
+
+
+
+Updated Mods
+
+Cyclic
+MalisisCore
+McJtyLib
+RebornCore
+RFTools
+RFTools Dimensions
+Tech Reborn
+Wireless Crafting Terminal
+XNet
