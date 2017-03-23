@@ -157,11 +157,12 @@ recipes.remove(<techreborn:part:26>);
 recipes.addShaped(<techreborn:part:26> * 1, 	[[<ore:dustCoal>, <ore:dustTin>, <ore:dustCoal>],
 												[<ore:dustTin>, <ore:plateCopper>, <ore:dustTin>],
 												[<ore:dustCoal>, <ore:dustTin>, <ore:dustCoal>]]);
-
-
-
-
-
+# silicon ingots added back in
+recipes.addShapeless(<libvulpes:productingot:3> * 1, [<enderio:itemMaterial:0>]);
+recipes.removeShaped(<enderio:itemMaterial:0>);
+recipes.addShaped(<libvulpes:productingot:3> * 1,	[[<libvulpes:productnugget:3>, <libvulpes:productnugget:3>, <libvulpes:productnugget:3>],
+													 [<libvulpes:productnugget:3>, <libvulpes:productnugget:3>, <libvulpes:productnugget:3>],
+													 [<libvulpes:productnugget:3>, <libvulpes:productnugget:3>, <libvulpes:productnugget:3>]]);
 
 
 
