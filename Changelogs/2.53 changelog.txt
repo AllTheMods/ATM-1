@@ -2,6 +2,8 @@ All The Mods 2.53 Changelog
 
 
 Config Changes
+Fixed recipes: Salt, Silicon, Neutron Plates and more.
+Fixed Void Ore/Resource Miners.
 
 
 Added Mods
