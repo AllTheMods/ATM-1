@@ -164,5 +164,14 @@ recipes.addShaped(<libvulpes:productingot:3> * 1,	[[<libvulpes:productnugget:3>,
 													 [<libvulpes:productnugget:3>, <libvulpes:productnugget:3>, <libvulpes:productnugget:3>],
 													 [<libvulpes:productnugget:3>, <libvulpes:productnugget:3>, <libvulpes:productnugget:3>]]);
 
+# pams fixes
+<ore:foodSalt>.add(<mekanism:Salt>);
+recipes.remove(<harvestcraft:bubblywaterItem>);
+recipes.addShapeless(<harvestcraft:bubblywaterItem> * 1, [<ore:toolJuicer>, <ore:listAllwater>]);
+recipes.addShapeless(<harvestcraft:saltItem> * 1, [<ore:toolPot>, <ore:listAllwater>]);
+
+
+
+
 
 
