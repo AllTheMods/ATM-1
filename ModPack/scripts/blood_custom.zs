@@ -170,8 +170,6 @@ recipes.remove(<harvestcraft:bubblywaterItem>);
 recipes.addShapeless(<harvestcraft:bubblywaterItem> * 1, [<ore:toolJuicer>, <ore:listAllwater>]);
 recipes.addShapeless(<harvestcraft:saltItem> * 1, [<ore:toolPot>, <ore:listAllwater>]);
 
-
-
-
-
+# oredict for yellorium (to get ic2 uranium)
+<ore:oreUranium>.add(<bigreactors:brore>);
 
