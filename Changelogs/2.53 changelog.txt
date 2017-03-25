@@ -21,6 +21,9 @@ Cofh Core
 CompatLayer
 Engineer's Workshop
 McjtyLib
+Mekanism
+Mekanism Generators
+Mekanism Tools
 Mystical Agriculture
 Redstone Arsenal
 Refined Storage
