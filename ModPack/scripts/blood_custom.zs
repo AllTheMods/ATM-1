@@ -173,3 +173,9 @@ recipes.addShapeless(<harvestcraft:saltItem> * 1, [<ore:toolPot>, <ore:listAllwa
 # oredict for yellorium (to get ic2 uranium)
 <ore:oreUranium>.add(<bigreactors:brore>);
 
+# practical book fix
+recipes.remove(<practicallogistics2:PLGuide>);
+recipes.addShapeless(<practicallogistics2:PLGuide> * 1, [<ore:gemSapphire>, <minecraft:book>]);
+
+
+

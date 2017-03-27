@@ -37,6 +37,20 @@
 			"immersiveengineering",
 			"techreborn"
 		]
+	},
+		{
+		"entryName" : "dustSapphire",
+		"modIdPriorityList" :
+		[
+			"minecraft",
+			"practicallogistics2",
+			"thermalfoundation",
+			"substratum",
+			"ic2",
+			"mekanism",
+			"immersiveengineering",
+			"techreborn"
+		]
 	}
 ]
 ]
