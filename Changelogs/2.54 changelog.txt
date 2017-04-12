@@ -3,6 +3,12 @@ All The Mods 2.54 Changelog
 
 Config Changes
 
+Cleaned up Just Enough Resources
+Added OreDictionary support for Railcraft Recipes
+Added Soulbound Recipe and fixed it to work with Tomb Many Graves.
+Added TAIGA Resources to Void Miner
+Disabled Applied Energistics Energy Cells, Possible world corruption if used.
+
 
 Added Mods
 
@@ -18,6 +24,11 @@ TAIGA
 Thermal Smeltery
 Tinkers Addons
 Wireless Crafting Grid
+
+
+Removed Mods
+
+Steves Factory Manager
 
 
 Updated Mods
