@@ -12,7 +12,9 @@ KleeSlabs
 Moar Tinkers
 Mod Tweaker
 Modular Power Suits
+MPUtils/BasicTools
 Reborn Storage
+TAIGA
 Thermal Smeltery
 Tinkers Addons
 Wireless Crafting Grid
