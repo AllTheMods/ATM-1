@@ -186,3 +186,16 @@ recipes.addShaped(<notenoughwands:acceleration_wand> * 1,
 	[<mekanism:AtomicAlloy>, <notenoughwands:advanced_wandcore>, <mysticalagriculture:supremium_ingot>],
 	[<mysticalagriculture:supremium_ingot>, <mysticalagriculture:supremium_ingot>, <notenoughwands:advanced_wandcore>]]);
 
+
+# wireless terminal back in
+recipes.remove(<appliedenergistics2:wireless_terminal>);
+recipes.addShaped(<appliedenergistics2:wireless_terminal> * 1,
+	[[null, <appliedenergistics2:material:41>, null],
+	[null, <appliedenergistics2:part:380>, null],
+	[<appliedenergistics2:part:16>, <enderio:blockCapBank:3>, <appliedenergistics2:part:16>]]);
+recipes.addShaped(<appliedenergistics2:wireless_terminal> * 1,
+	[[null, <appliedenergistics2:material:41>, null],
+	[null, <appliedenergistics2:part:380>, null],
+	[<appliedenergistics2:part:16>, <mekanism:EnergyCube>.onlyWithTag({tier: 3}), <appliedenergistics2:part:16>]]);
+
+	
