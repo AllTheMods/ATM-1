@@ -64,6 +64,9 @@ Woot
 XNet
 ZeroCore
 
+Removed Mods
+
+Steves Factory Manager
 
 Config Changes
 
