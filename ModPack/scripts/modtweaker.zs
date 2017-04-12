@@ -1,0 +1,1 @@
+mods.chisel.Groups.addVariation("basalt", <taiga:basalt>);
