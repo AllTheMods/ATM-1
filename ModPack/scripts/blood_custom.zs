@@ -177,5 +177,12 @@ recipes.addShapeless(<harvestcraft:saltItem> * 1, [<ore:toolPot>, <ore:listAllwa
 recipes.remove(<practicallogistics2:PLGuide>);
 recipes.addShapeless(<practicallogistics2:PLGuide> * 1, [<ore:gemSapphire>, <minecraft:book>]);
 
+# resonant Ender in smeltery
+mods.tconstruct.Smeltery.addMelting(<liquid:ender> * 250, <ore:enderpearl>, 400);
 
+# harder accel wand
+recipes.addShaped(<notenoughwands:acceleration_wand> * 1,
+	[[<minecraft:dragon_egg>, <mekanism:AtomicAlloy>, <mysticalagriculture:supremium_ingot>],
+	[<mekanism:AtomicAlloy>, <notenoughwands:advanced_wandcore>, <mysticalagriculture:supremium_ingot>],
+	[<mysticalagriculture:supremium_ingot>, <mysticalagriculture:supremium_ingot>, <notenoughwands:advanced_wandcore>]]);
 
