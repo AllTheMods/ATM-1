@@ -1,9 +1,6 @@
 All The Mods 2.54 Changelog
 
 
-Config Changes
-
-
 Added Mods
 
 Controlling
@@ -66,3 +63,16 @@ Wireless Crafting Terminal
 Woot
 XNet
 ZeroCore
+
+
+Config Changes
+
+Recipes for several creative items:
+  - creative RS controller
+  - creative storage RS items
+  - creative storage RS fluids
+  - creative drawer upgrade
+  - creative mill
+  - creative builders wand
+  - creative destruction wand
+  - creative capacitor from cyberware
