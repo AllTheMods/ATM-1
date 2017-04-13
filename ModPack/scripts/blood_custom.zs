@@ -177,5 +177,60 @@ recipes.addShapeless(<harvestcraft:saltItem> * 1, [<ore:toolPot>, <ore:listAllwa
 recipes.remove(<practicallogistics2:PLGuide>);
 recipes.addShapeless(<practicallogistics2:PLGuide> * 1, [<ore:gemSapphire>, <minecraft:book>]);
 
+# resonant Ender in smeltery
+mods.tconstruct.Smeltery.addMelting(<liquid:ender> * 250, <ore:enderpearl>, 400);
 
+# harder accel wand
+recipes.addShaped(<notenoughwands:acceleration_wand> * 1,
+	[[<minecraft:dragon_egg>, <mekanism:AtomicAlloy>, <mysticalagriculture:supremium_ingot>],
+	[<mekanism:AtomicAlloy>, <notenoughwands:advanced_wandcore>, <mysticalagriculture:supremium_ingot>],
+	[<mysticalagriculture:supremium_ingot>, <mysticalagriculture:supremium_ingot>, <notenoughwands:advanced_wandcore>]]);
+
+
+# wireless terminal back in
+recipes.remove(<appliedenergistics2:wireless_terminal>);
+recipes.addShaped(<appliedenergistics2:wireless_terminal> * 1,
+	[[null, <appliedenergistics2:material:41>, null],
+	[null, <appliedenergistics2:part:380>, null],
+	[<appliedenergistics2:part:16>, <enderio:blockCapBank:3>, <appliedenergistics2:part:16>]]);
+recipes.addShaped(<appliedenergistics2:wireless_terminal> * 1,
+	[[null, <appliedenergistics2:material:41>, null],
+	[null, <appliedenergistics2:part:380>, null],
+	[<appliedenergistics2:part:16>, <mekanism:EnergyCube>.onlyWithTag({tier: 3}), <appliedenergistics2:part:16>]]);
+
+#xtones back to stonetiles
+recipes.addShapeless(<xtones:base>, [<xtones:agon:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:zech:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:zoea:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:bitt:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:iszm:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:lair:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:sync:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:zkul:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:glaxx:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:cray:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:zyth:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:kryp:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:korp:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:mint:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:roen:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:zorg:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:vena:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:zone:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:lave:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:sols:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:vect:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:tank:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:zeta:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:zane:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:jelt:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:zest:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:zome:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:ztyl:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:reds:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:zion:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:azur:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:fort:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:myst:*>]);
+recipes.addShapeless(<xtones:base>, [<xtones:reed:*>]);
 
