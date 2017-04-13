@@ -3,77 +3,84 @@ All The Mods 2.54 Changelog
 
 Config Changes
 
-Cleaned up Just Enough Resources
-Added OreDictionary support for Railcraft Recipes
-Added Soulbound Recipe and fixed it to work with Tomb Many Graves.
-Added TAIGA Resources to Void Miner
-Disabled Applied Energistics Energy Cells, Possible world corruption if used.
+*Cleaned up Just Enough Resources
+*Added OreDictionary support for Railcraft Recipes
+*Added Soulbound Recipe and fixed it to work with Tomb Many Graves.
+*Added TAIGA Resources to Void Miner
+*Disabled Applied Energistics Energy Cells, Possible world corruption if used.
+*Added Advanced Recipes for the following items:
+	Refined Storage-Controller, Item Storage, Fluid Storage.
+	Storage Drawers-Creative Upgrade.
+	Extra Utitlities-Creative Mill.
+	Wands-Builders Wand, Destructive Wand, Accelleration Wand.
+	Cyberware-Creative Capacitor.
 
 
 Added Mods
 
-Controlling
-ET Lunar
-KleeSlabs
-Moar Tinkers
-Mod Tweaker
-Modular Power Suits
-MPUtils/BasicTools
-Reborn Storage
-TAIGA
-Thermal Smeltery
-Tinkers Addons
-Wireless Crafting Grid
+*Controlling
+*ET Lunar
+*KleeSlabs
+*Moar Tinkers
+*Mod Tweaker
+*Modular Power Suits
+*MPUtils/BasicTools
+*Reborn Storage
+*TAIGA
+*Thermal Smeltery
+*Tinkers Addons
+*Wireless Crafting Grid
 
 
 Removed Mods
 
-Steves Factory Manager
+*Steves Factory Manager
 
 
 Updated Mods
 
-AbyssalCraft
-Advanced Rocketry
-ArmorPlus
-Ars Magica 2
-Astral Sorcery
-Bed Bugs
-Blood Magic
-Bookshelf
-Brandon's Core
-Chisel
-CodeChicken Core
-Custom Main Menu
-Cyberware
-Cyclic
-Draconic Evolution
-ElecCore
-Ender IO
-Ender Storage
-Ender Zoo
-Ender Tanks
-Extreme Reactors
-Forestry
-FTB Utilities
-FTB Lib
-IndustrialCraft
-Iron Backpacks
-LibVulpes
-Mystical Agriculture
-Natura
-Platforms
-Practical Logistics 2
-Progressive Automation
-Refined Storage
-Reliquary
-RFTools
-Shadowfacts Forgelin
-Storage Drawers
-TechReborn
-The One Probe
-Translocators
-Wireless Crafting Terminal
-Woot
-XNet
-ZeroCore
+*AbyssalCraft
+*Advanced Rocketry
+*ArmorPlus
+*Ars Magica 2
+*Astral Sorcery
+*Bed Bugs
+*Blood Magic
+*Bookshelf
+*Brandon's Core
+*Chisel
+*CodeChicken Core
+*Custom Main Menu
+*Cyberware
+*Cyclic
+*Draconic Evolution
+*ElecCore
+*Ender IO
+*Ender Storage
+*Ender Zoo
+*Ender Tanks
+*Extreme Reactors
+*Forestry
+*FTB Utilities
+*FTB Lib
+*IndustrialCraft
+*Iron Backpacks
+*LibVulpes
+*More Overlays
+*Mystical Agriculture
+*Natura
+*Platforms
+*Practical Logistics 2
+*Progressive Automation
+*Refined Storage
+*Reliquary
+*RFTools
+*Shadowfacts Forgelin
+*Storage Drawers
+*TechReborn
+*The One Probe
+*Translocators
+*Wireless Crafting Terminal
+*Woot
+*XNet
+*ZeroCore
