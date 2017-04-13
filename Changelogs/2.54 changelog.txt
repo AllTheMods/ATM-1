@@ -18,6 +18,7 @@ Config Changes
 
 Added Mods
 
+*Better Achievements
 *Controlling
 *ET Lunar
 *KleeSlabs
@@ -30,6 +31,7 @@ Added Mods
 *Thermal Smeltery
 *Tinkers Addons
 *Wireless Crafting Grid
+*XTones
 
 
 Removed Mods
