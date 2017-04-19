@@ -2,7 +2,7 @@
 mods.botania.RuneAltar.addRecipe(<refinedstorage:controller:1>,
 	[<draconicevolution:draconium_capacitor:1>.withTag({DEUpgrades: {rfCap: 4 as byte}, Energy: 768000000}),
 	<draconicevolution:chaotic_core>,
-	<ic2:te:75>.withTag({energy: 4.0E7}),
+	<mekanism:BasicBlock2:3>.withTag({tier: 3}),
 	<draconicevolution:chaotic_core>,
 	<mekanism:EnergyCube>.withTag({tier: 3, mekData: {energyStored: 1.28E8}}),
 	<draconicevolution:chaotic_core>,
