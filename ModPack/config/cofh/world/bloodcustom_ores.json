@@ -1,0 +1,26 @@
+{
+	"populate": {
+		"nether_redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "nethermetals:nether_redstone_ore",
+				"material": "netherrack",
+				"cluster-size": 9
+			},
+			"cluster-count": 12,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		}
+	}
+}
