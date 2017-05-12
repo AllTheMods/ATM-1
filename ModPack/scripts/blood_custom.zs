@@ -12,6 +12,7 @@ val steel = <ore:ingotSteel>;
 val lead = <ore:ingotLead>;
 val silver = <ore:ingotSilver>;
 val uranium = <ore:ingotUranium>;
+val invar = <ore:ingotInvar>;
 
 ## all Nether Metals ores
 <ore:oreIronNether>.add(<nethermetals:nether_iron_ore>);
@@ -107,6 +108,9 @@ recipes.removeShaped(<ore:gearGold>);
 recipes.removeShaped(<ore:gearTin>);
 recipes.removeShaped(<ore:gearCopper>);	
 recipes.removeShaped(<ore:gearBronze>);
+recipes.removeShaped(<ore:gearSteel>);
+recipes.removeShaped(<ore:gearInvar>);
+recipes.removeShaped(<ore:gearStone>);
 
 # adding them back in											
 recipes.addShaped(<substratum:gear:1> * 1, 	[[null, iron, null],
@@ -128,7 +132,15 @@ recipes.addShaped(<substratum:gear:3> * 1, 	[[null, copper, null],
 recipes.addShaped(<substratum:gear:5> * 1, 	[[null, bronze, null],
 											[bronze, iron, bronze],
 											[null, bronze, null]]);
-
+recipes.addShaped(<substratum:gear:12> * 1, 	[[null, steel, null],
+												[steel, iron, steel],
+												[null, steel, null]]);
+recipes.addShaped(<substratum:gear:7> * 1, 	[[null, invar, null],
+											[invar, iron, invar],
+											[null, invar, null]]);
+recipes.addShaped(<substratum:gear:0> * 1, 	[[null, <ore:cobblestone>, null],
+											[<ore:cobblestone>, <ore:stickWood>, <ore:cobblestone>],
+											[null, <ore:cobblestone>, null]]);
 											
 # Ember Plates
 recipes.removeShapeless(<ore:plateGold>, [<embers:tinkerHammer>, gold, gold, gold, gold]);
