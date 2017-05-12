@@ -193,10 +193,11 @@ recipes.addShapeless(<practicallogistics2:PLGuide> * 1, [<ore:gemSapphire>, <min
 mods.tconstruct.Smeltery.addMelting(<liquid:ender> * 250, <ore:enderpearl>, 400);
 
 # harder accel wand
+recipes.remove(<notenoughwands:acceleration_wand>);
 recipes.addShaped(<notenoughwands:acceleration_wand> * 1,
-	[[<minecraft:dragon_egg>, <mekanism:AtomicAlloy>, <mysticalagriculture:supremium_ingot>],
-	[<mekanism:AtomicAlloy>, <notenoughwands:advanced_wandcore>, <mysticalagriculture:supremium_ingot>],
-	[<mysticalagriculture:supremium_ingot>, <mysticalagriculture:supremium_ingot>, <notenoughwands:advanced_wandcore>]]);
+	[[<minecraft:dragon_egg>, <mekanism:AtomicAlloy>, <taiga:ultranite_ingot>],
+	[<mekanism:AtomicAlloy>, <notenoughwands:advanced_wandcore>, <taiga:proxideum_ingot>],
+	[<taiga:noctunyx_ingot>, <taiga:cryptogen_ingot>, <notenoughwands:advanced_wandcore>]]);
 
 
 # wireless terminal back in
