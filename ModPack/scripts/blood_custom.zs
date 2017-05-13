@@ -195,9 +195,9 @@ mods.tconstruct.Smeltery.addMelting(<liquid:ender> * 250, <ore:enderpearl>, 400)
 # harder accel wand
 recipes.remove(<notenoughwands:acceleration_wand>);
 recipes.addShaped(<notenoughwands:acceleration_wand> * 1,
-	[[<minecraft:dragon_egg>, <mekanism:AtomicAlloy>, <ore:ingotNiob>],
-	[<mekanism:AtomicAlloy>, <notenoughwands:advanced_wandcore>, <ore:ingotYrdeen>],
-	[<ore:ingotAstrium>, <ore:ingotIox>, <notenoughwands:advanced_wandcore>]]);
+	[[<minecraft:dragon_egg>, <mekanism:AtomicAlloy>, <taiga:adamant_ingot>],
+	[<mekanism:AtomicAlloy>, <abyssalcraft:essence:2>, <draconicevolution:draconic_ingot>],
+	[<techreborn:ingot:16>, <botania:manaResource:14>, <notenoughwands:advanced_wandcore>]]);
 
 
 # wireless terminal back in
@@ -246,4 +246,3 @@ recipes.addShapeless(<xtones:base>, [<xtones:azur:*>]);
 recipes.addShapeless(<xtones:base>, [<xtones:fort:*>]);
 recipes.addShapeless(<xtones:base>, [<xtones:myst:*>]);
 recipes.addShapeless(<xtones:base>, [<xtones:reed:*>]);
-
