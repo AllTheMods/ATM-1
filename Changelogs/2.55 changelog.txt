@@ -19,6 +19,7 @@ Extra Bit Manipulation
 NuclearCraft
 Scannable
 Simply Jetpacks 2
+Tinker I/O
 TOP Addons
 
 Removed Mods
@@ -52,6 +53,7 @@ Forestry
 FTB Utilities
 FTBLib
 Immersive Engineering
+Industrialcraft
 Iron Backpacks
 Iron Chests
 Just Enough Calculation
@@ -73,6 +75,7 @@ RFTools Control
 Shadowfacts' Forgelin
 Sonar Core
 Storage Drawers
+TAIGA
 Tech Reborn
 Wireless Crafting Terminal
 Woot
