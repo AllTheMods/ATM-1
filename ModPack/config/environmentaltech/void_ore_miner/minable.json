@@ -30,6 +30,108 @@
       "meta": 0,
       "focusColor": "light_blue",
       "weight": 8
+    },
+    {
+      "id": "taiga:lignite_ore",
+      "meta": 0,
+      "focusColor": "brown",
+      "weight": 5
+    },
+	{
+      "id": "taiga:meteorite_ore",
+      "meta": 0,
+      "focusColor": "gray",
+      "weight": 5
+    },
+	{
+      "id": "taiga:titanite_ore",
+      "meta": 0,
+      "focusColor": "white",
+      "weight": 5
+    },
+	{
+      "id": "taiga:vibranium_ore",
+      "meta": 0,
+      "focusColor": "green",
+      "weight": 5
+    },
+	{
+      "id": "taiga:adamantite_ore",
+      "meta": 0,
+      "focusColor": "pink",
+      "weight": 5
+    },
+	{
+      "id": "taiga:prometheum_ore",
+      "meta": 0,
+      "focusColor": "black",
+      "weight": 5
+    },
+	{
+      "id": "taiga:rubium_ore",
+      "meta": 0,
+      "focusColor": "red",
+      "weight": 5
+    },
+	{
+      "id": "taiga:tiberium_ore",
+      "meta": 0,
+      "focusColor": "green",
+      "weight": 5
+    },
+	{
+      "id": "taiga:arcanite_ore",
+      "meta": 0,
+      "focusColor": "blue",
+      "weight": 5
+    },
+	{
+      "id": "taiga:eternite_ore",
+      "meta": 0,
+      "focusColor": "yellow",
+      "weight": 5
+    },
+	{
+      "id": "taiga:mythril_ore",
+      "meta": 0,
+      "focusColor": "gray",
+      "weight": 5
+    },
+	{
+      "id": "taiga:palladium_ore",
+      "meta": 0,
+      "focusColor": "orange",
+      "weight": 5
+    },
+	{
+      "id": "taiga:ignitite_ore",
+      "meta": 0,
+      "focusColor": "orange",
+      "weight": 5
+    },
+	{
+      "id": "taiga:violium_ore",
+      "meta": 0,
+      "focusColor": "cyan",
+      "weight": 5
+    },
+	{
+      "id": "taiga:bismuth_ore",
+      "meta": 0,
+      "focusColor": "black",
+      "weight": 5
+    },
+	{
+      "id": "taiga:mindorite_ore",
+      "meta": 0,
+      "focusColor": "light_blue",
+      "weight": 5
+    },
+	{
+      "id": "taiga:karmesine_ore",
+      "meta": 0,
+      "focusColor": "red",
+      "weight": 5
     }
   ],
   "oreDict": [
