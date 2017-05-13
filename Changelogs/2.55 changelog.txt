@@ -3,6 +3,7 @@ All The Mods 2.55 Changelog
 Config Changes
 
 Changes TConstruct tables to not render items. (Fixes render crash when crafting Mekanism etc).
+Changed recipe for Acceleration Wand.
 Disabled Spawning of Pam's Trees and Gardens. (Seeds can be gotten by breaking greass, saplings from the market block).
 Fixes Nether Ore: No Explosions, Nether Redstone ore.
 Fixes Railcraft Recipes, Plates Oredict etc.
