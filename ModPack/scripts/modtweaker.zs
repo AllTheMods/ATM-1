@@ -1,2 +1,2 @@
-mods.chisel.Groups.addVariation("basalt", <taiga:basalt>);
-mods.chisel.Groups.addVariation("dirt", <taiga:rotten_ground>);
+print(" -- - - modtweaker file - -- - - ");
+mods.chisel.Groups.addVariation("basalt", <taiga:basalt_block>);
