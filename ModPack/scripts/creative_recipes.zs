@@ -53,10 +53,10 @@ recipes.addShaped(<extrautils2:passivegenerator:6> * 1,
 	[combinedDragonMill, combinedDragonMill, combinedDragonMill]]);
 
 # creative builders wand
-recipes.addShaped(<extrautils2:itemcreativebuilderswand> * 1,	
-	[[<betterbuilderswands:wandUnbreakable:14>],
-	[<extrautils2:itembuilderswand>],
-	[<notenoughwands:building_wand>]]);
+#recipes.addShaped(<extrautils2:itemcreativebuilderswand> * 1,	
+#	[[<betterbuilderswands:wandUnbreakable:14>],
+#	[<extrautils2:itembuilderswand>],
+#	[<notenoughwands:building_wand>]]);
 
 # creative destruction wand
 recipes.addShaped(<extrautils2:itemcreativedestructionwand> * 1,	
