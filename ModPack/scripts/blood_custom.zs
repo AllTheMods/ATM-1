@@ -291,3 +291,6 @@ mods.tconstruct.Smeltery.addAlloy(<liquid:darksteel> * 144, [<liquid:coal> * 100
 mods.tconstruct.Casting.addTableRecipe(<enderio:itemAlloy:7>, <liquid:gold> * 144, <minecraft:soul_sand>, true, 20);
 mods.tconstruct.Casting.addBasinRecipe(<enderio:itemAlloy:7>, <liquid:gold> * 144, <minecraft:soul_sand>, true, 20);
 
+# meka boiler fix
+recipes.remove(<mekanism:BasicBlock2:7>);
+recipes.addShaped(<mekanism:BasicBlock2:7> * 8, [[null, <ore:ingotSteel>, null],[<ore:ingotSteel>, <mekanism:BasicBlock:8>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
