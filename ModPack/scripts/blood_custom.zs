@@ -209,7 +209,7 @@ recipes.addShaped(<appliedenergistics2:wireless_terminal> * 1,
 recipes.addShaped(<appliedenergistics2:wireless_terminal> * 1,
 	[[null, <appliedenergistics2:material:41>, null],
 	[null, <appliedenergistics2:part:380>, null],
-	[<appliedenergistics2:part:16>, <mekanism:EnergyCube>.onlyWithTag({tier: 3}), <appliedenergistics2:part:16>]]);
+	[<appliedenergistics2:part:16>, <mekanism:EnergyCube>.withTag({tier: 3}), <appliedenergistics2:part:16>]]);
 
 #xtones back to stonetiles
 recipes.addShapeless(<xtones:base>, [<xtones:agon:*>]);
@@ -314,4 +314,13 @@ mods.tconstruct.Smeltery.addMelting(<liquid:gold> * 144, <minecraft:light_weight
 mods.actuallyadditions.Crusher.addRecipe(<mysticalagriculture:end_prosperity_ore>, <mysticalagriculture:prosperity_shard> * 3, <mysticalagriculture:prosperity_shard> * 2, 40);
 mods.actuallyadditions.Crusher.addRecipe(<mysticalagriculture:prosperity_ore>, <mysticalagriculture:prosperity_shard> * 3, <mysticalagriculture:prosperity_shard> * 2, 40);
 mods.actuallyadditions.Crusher.addRecipe(<mysticalagriculture:nether_prosperity_ore>, <mysticalagriculture:prosperity_shard> * 3, <mysticalagriculture:prosperity_shard> * 2, 40);
+
+# Quantum tank
+recipes.remove(<techreborn:techreborn.quantumTank>);
+recipes.remove(<techreborn:techreborn.quantumChest>);
+recipes.remove(<techreborn:techreborn.digitalChest>);
+
+recipes.addShaped(<techreborn:techreborn.quantumTank> * 1, 	[[<techreborn:part:3>, <techreborn:part:24>, <techreborn:part:3>],
+												[<ore:machineBlockElite>, <techreborn:implosioncompressor>, <ore:machineBlockElite>],
+												[<techreborn:part:3>, <mekanism:MachineBlock2:11>.withTag({tier: 3}), <techreborn:part:3>]]);
 
