@@ -294,3 +294,24 @@ mods.tconstruct.Casting.addBasinRecipe(<enderio:itemAlloy:7>, <liquid:gold> * 14
 # meka boiler fix
 recipes.remove(<mekanism:BasicBlock2:7>);
 recipes.addShaped(<mekanism:BasicBlock2:7> * 8, [[null, <ore:ingotSteel>, null],[<ore:ingotSteel>, <mekanism:BasicBlock:8>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
+
+# ic2 adv circuit
+recipes.remove(<ic2:crafting:2>);
+recipes.addShaped(<ic2:crafting:2> * 1, 	[[<ore:dustRedstone>, <ore:gemLapis>, <ore:dustRedstone>],
+												[<ore:dustGlowstone>, <ore:circuitBasic>, <ore:dustGlowstone>],
+												[<ore:dustRedstone>, <ore:gemLapis>, <ore:dustRedstone>]]);
+
+# pressure plate exploit fix
+mods.tconstruct.Smeltery.removeMelting(<minecraft:heavy_weighted_pressure_plate>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:light_weighted_pressure_plate>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:iron_bars>);
+
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 36, <minecraft:iron_bars>, 591);
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 144, <minecraft:heavy_weighted_pressure_plate>, 591);
+mods.tconstruct.Smeltery.addMelting(<liquid:gold> * 144, <minecraft:light_weighted_pressure_plate>, 591);
+
+# prosp crusher
+mods.actuallyadditions.Crusher.addRecipe(<mysticalagriculture:end_prosperity_ore>, <mysticalagriculture:prosperity_shard> * 3, <mysticalagriculture:prosperity_shard> * 2, 40);
+mods.actuallyadditions.Crusher.addRecipe(<mysticalagriculture:prosperity_ore>, <mysticalagriculture:prosperity_shard> * 3, <mysticalagriculture:prosperity_shard> * 2, 40);
+mods.actuallyadditions.Crusher.addRecipe(<mysticalagriculture:nether_prosperity_ore>, <mysticalagriculture:prosperity_shard> * 3, <mysticalagriculture:prosperity_shard> * 2, 40);
+
