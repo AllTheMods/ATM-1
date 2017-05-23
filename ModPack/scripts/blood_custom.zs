@@ -324,3 +324,20 @@ recipes.addShaped(<techreborn:techreborn.quantumTank> * 1, 	[[<techreborn:part:3
 												[<ore:machineBlockElite>, <techreborn:implosioncompressor>, <ore:machineBlockElite>],
 												[<techreborn:part:3>, <mekanism:MachineBlock2:11>.withTag({tier: 3}), <techreborn:part:3>]]);
 
+
+# Dilithium Block casting
+mods.tconstruct.Casting.addBasinRecipe(<taiga:dilithium_block>, <liquid:dilithium_fluid> * 1296, null, false, 600);
+# oredict removal
+<ore:oreDilithium>.remove(<taiga:dilithium_block>);
+<ore:oreDilithium>.add(<taiga:dilithium_ore>);
+
+# custom recipes blueprints
+recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}), 
+	[[<ore:ingotCopper>, <ore:ingotSignalum>, <ore:ingotCopper>],
+	[<immersiveengineering:bullet:2>.withTag({bullet: "HE"}), <immersiveengineering:blueprint>.withTag({blueprint: "bullet"}), <immersiveengineering:bullet:2>.withTag({bullet: "HE"})],
+	[<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]]);
+
+recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}), 
+	[[<ore:ingotPulsatingIron>, <ore:ingotPulsatingIron>, <ore:ingotPulsatingIron>],
+	[<immersiveengineering:mold:2>, <immersiveengineering:blueprint>.withTag({blueprint: "bullet"}), <immersiveengineering:mold:2>],
+	[<ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>]]);
