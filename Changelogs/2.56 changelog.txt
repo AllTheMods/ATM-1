@@ -2,10 +2,22 @@ All The Mods 2.56 Changelog
 
 Config Changes
 
+Added Recipes for Immersive Engineering Blueprints.
+Buffed NuclearCraft power generation slightly, to balance it alongside other power generation mods.
+Disabled Quantum Chest and DigiChest.
+Fixed AE2 Quantum Ring Recipe.
+Fixed an exploit with the smeltery.
+Fixed Mekanism Boiler Plate Recipe.
+Hid Lifesteal enchant from JEI uses.
+Updated Akashic Tome and MorphoTool configs.
+
 Added Mods
+
 AnalyseIO
 Fullscreen Windowed (Borderless)
 Immersive Petroleum
+RouterReborn
+RouterReborn Lib
 
 
 Removed Mods
