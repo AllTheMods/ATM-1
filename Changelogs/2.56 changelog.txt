@@ -1,5 +1,6 @@
 All The Mods 2.56 Changelog
 
+
 Config Changes
 
 Added Recipes for Immersive Engineering Blueprints.
@@ -11,6 +12,7 @@ Fixed Mekanism Boiler Plate Recipe.
 Hid Lifesteal enchant from JEI uses.
 Updated Akashic Tome and MorphoTool configs.
 
+
 Added Mods
 
 AnalyseIO
@@ -18,11 +20,6 @@ Fullscreen Windowed (Borderless)
 Immersive Petroleum
 RouterReborn
 RouterReborn Lib
-
-
-Removed Mods
-
-
 
 
 Updated Mods
