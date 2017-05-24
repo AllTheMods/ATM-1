@@ -341,3 +341,15 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "electrod
 	[[<ore:ingotPulsatingIron>, <ore:ingotPulsatingIron>, <ore:ingotPulsatingIron>],
 	[<immersiveengineering:mold:2>, <immersiveengineering:blueprint>.withTag({blueprint: "bullet"}), <immersiveengineering:mold:2>],
 	[<ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>]]);
+
+#Quantum Ring
+recipes.addShaped(<appliedenergistics2:quantum_ring>, 
+	[[iron, <appliedenergistics2:material:22>, iron],
+	[<appliedenergistics2:material:24>, <mekanism:EnergyCube>.withTag({tier: 3}), <appliedenergistics2:part:76>],
+	[iron, <appliedenergistics2:material:22>, iron]]);
+
+recipes.addShaped(<appliedenergistics2:quantum_ring>, 
+	[[iron, <appliedenergistics2:material:22>, iron],
+	[<appliedenergistics2:material:24>, <enderio:blockCapBank:3>, <appliedenergistics2:part:76>],
+	[iron, <appliedenergistics2:material:22>, iron]]);
+
