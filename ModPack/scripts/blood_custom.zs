@@ -353,3 +353,8 @@ recipes.addShaped(<appliedenergistics2:quantum_ring>,
 	[<appliedenergistics2:material:24>, <enderio:blockCapBank:3>, <appliedenergistics2:part:76>],
 	[iron, <appliedenergistics2:material:22>, iron]]);
 
+# crossroads axel
+recipes.addShaped(<crossroads:axle> * 1,
+	[[<ore:stickIron>, null, null],
+	[null, <ore:stickIron>, null],
+	[null, null, <ore:stickIron>]]);
