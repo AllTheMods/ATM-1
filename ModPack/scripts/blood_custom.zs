@@ -178,9 +178,9 @@ recipes.addShaped(<libvulpes:productingot:3> * 1,	[[<libvulpes:productnugget:3>,
 
 # pams fixes
 <ore:foodSalt>.add(<mekanism:Salt>);
-recipes.remove(<harvestcraft:bubblywaterItem>);
-recipes.addShapeless(<harvestcraft:bubblywaterItem> * 1, [<ore:toolJuicer>, <ore:listAllwater>]);
-recipes.addShapeless(<harvestcraft:saltItem> * 1, [<ore:toolPot>, <ore:listAllwater>]);
+recipes.remove(<harvestcraft:bubblywateritem>);
+recipes.addShapeless(<harvestcraft:bubblywateritem> * 1, [<ore:toolJuicer>, <ore:listAllwater>]);
+recipes.addShapeless(<harvestcraft:saltitem> * 1, [<ore:toolPot>, <ore:listAllwater>]);
 
 # oredict for yellorium (to get ic2 uranium)
 <ore:oreUranium>.add(<bigreactors:brore>);
@@ -353,8 +353,14 @@ recipes.addShaped(<appliedenergistics2:quantum_ring>,
 	[<appliedenergistics2:material:24>, <enderio:blockCapBank:3>, <appliedenergistics2:part:76>],
 	[iron, <appliedenergistics2:material:22>, iron]]);
 
-# crossroads axel
-recipes.addShaped(<crossroads:axle> * 1,
-	[[<ore:stickIron>, null, null],
-	[null, <ore:stickIron>, null],
-	[null, null, <ore:stickIron>]]);
+# disabled gift of the gods
+mods.armorplus.Workbench.remove(<armorplus:the_gift_of_the_gods>);
+
+# axle
+recipes.addShaped(<crossroads:axle> * 1, 	[[null, null, <ore:rodIron>],
+											[null, <ore:rodIron>, null],
+											[<ore:rodIron>, null, null]]);
+
+# mirror Quartz
+<ore:dustNetherQuartz>.addAll(<ore:dustQuartz>);
+<ore:dustQuartz>.mirror(<ore:dustNetherQuartz>); 

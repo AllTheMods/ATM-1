@@ -1,0 +1,39 @@
+All The Mods 2.57 Changelog
+
+
+Config Changes
+
+- properly disabled gift of the gods
+- fixed axle
+- fixed quartz dust
+
+
+
+
+Added Mods
+---
+
+Updated Mods
+
+- Abyssal
+- AnalyzeIO
+- Baubles
+- Biblio
+- Biomes o plenty
+- elec Core
+- ender tanks
+- immersive petroleum
+- ic2
+- iron chests
+- moar tinkers
+- modular powersuits
+- mtlib
+- natura
+- not enough ids
+- pams
+- reborn core
+- rftools dimension
+- shetiPhianCore
+- steve's carts reborn
+- storage drawers
+- tinkers
