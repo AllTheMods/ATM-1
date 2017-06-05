@@ -6,12 +6,11 @@ Config Changes
 - properly disabled gift of the gods
 - fixed axle
 - fixed quartz dust
-
-
+- Disabled AE2's IC2 support due to bugs
 
 
 Added Mods
----
+- Pam's Cookables
 
 Updated Mods
 
@@ -37,3 +36,7 @@ Updated Mods
 - steve's carts reborn
 - storage drawers
 - tinkers
+- TOP Addons
+- dark utils
+- JEI
+- more bees
