@@ -20,36 +20,35 @@ Updated Mods
 - Abyssal
 - advanced rocketry
 - AnalyzeIO
-- armorPlus
+- ArmorPlus
 - Baubles
 - Biblio
 - Biomes o plenty
 - BetterFPS
 - CodeChickenLib
-- elec Core
-- ender tanks
+- ElecCore
+- Ender Tanks
 - EnderIO
 - ExtraUtils2
-- immersive petroleum
-- ic2
-- iron chests
-- iron Backpacks
-- moar tinkers
-- modular powersuits
-- mtlib
-- more bees
-- mp utils
-- natura
-- not enough ids
-- lib vulpes
-- pams
-- reborn core
-- rftools dimension
-- shetiPhianCore
-- steve's carts reborn
-- storage drawers
-- tinkers
+- Immersive Petroleum
+- IC2
+- Iron Chests
+- Iron Backpacks
+- MoarTinkers
+- Modular Powersuits
+- mtLib
+- More Bees
+- MPUtils
+- Natura
+- NotEnoughIds
+- libVulpes
+- Pam's Harvestcraft
+- RebornCore
+- Rftools Dimension
+- ShetiPhianCore
+- Steve's Carts Reborn
+- Storage Drawers
+- TinkersConstruct
 - TOP Addons
-- dark utils
+- Dark Utilities
 - JEI
-- more bees

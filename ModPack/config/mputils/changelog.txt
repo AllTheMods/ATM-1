@@ -1,74 +1,54 @@
-§2§l§nAll The Mods 2.54 Changelog§r
+§2§l§nAll The Mods 2.57 Changelog§r
+
 
 §b§l§nConfig Changes§r
-*Cleaned up Just Enough Resources
-*Added OreDictionary support for Railcraft Recipes
-*Added Soulbound Recipe and fixed it to work with Tomb Many Graves.
-*Added TAIGA Resources to Void Miner
-*Disabled Applied Energistics Energy Cells, Possible world corruption if used.
 
-
-§b§l§nRemoved Mods§r
-*Steve's Factory Manager
-
+* properly disabled gift of the gods
+* fixed axle
+* fixed quartz dust
+* Disabled AE2's IC2 support due to bugs
+* Nerfed woot:
+	--> Spawnging withers now requires 3 skulls + 4 soulsand
+	--> Dragons needs 100 mb Dew of the void
+	--> Place chest or Tank on top to provide the resources
 
 §b§l§nAdded Mods§r
-*Controlling
-*ET Lunar
-*KleeSlabs
-*Moar Tinkers
-*Mod Tweaker
-*Modular Power Suits
-*MPUtils/BasicTools
-*Reborn Storage
-*TAIGA
-*Thermal Smeltery
-*Tinkers Addons
-*Wireless Crafting Grid
-
+* Pam's Cookables
 
 §b§l§nUpdated Mods§r
-*AbyssalCraft
-*Advanced Rocketry
-*ArmorPlus
-*Ars Magica 2
-*Astral Sorcery§r§r
-*Bed Bugs
-*Blood Magic
-*Bookshelf
-*Brandon's Core
-*Chisel
-*CodeChicken Core
-*Custom Main Menu
-*Cyberware
-*Cyclic
-*Draconic Evolution
-*ElecCore
-*Ender IO
-*Ender Storage
-*Ender Zoo
-*Ender Tanks
-*Extreme Reactors
-*Forestry
-*FTB Utilities
-*FTB Lib
-*IndustrialCraft
-*Iron Backpacks
-*LibVulpes
-*Mystical Agriculture
-*Natura
-*Platforms
-*Practical Logistics 2
-*Progressive Automation
-*Refined Storage
-*Reliquary
-*RFTools
-*Shadowfacts Forgelin
-*Storage Drawers
-*TechReborn
-*The One Probe
-*Translocators
-*Wireless Crafting Terminal
-*Woot
-*XNet
-*ZeroCore
+
+* Abyssal
+* advanced rocketry
+* AnalyzeIO
+* ArmorPlus
+* Baubles
+* Biblio
+* Biomes o plenty
+* BetterFPS
+* CodeChickenLib
+* ElecCore
+* Ender Tanks
+* EnderIO
+* ExtraUtils2
+* Immersive Petroleum
+* IC2
+* Iron Chests
+* Iron Backpacks
+* MoarTinkers
+* Modular Powersuits
+* mtLib
+* More Bees
+* MPUtils
+* Natura
+* NotEnoughIds
+* libVulpes
+* Pam's Harvestcraft
+* RebornCore
+* Rftools Dimension
+* ShetiPhianCore
+* Steve's Carts Reborn
+* Storage Drawers
+* TinkersConstruct
+* TOP Addons
+* Dark Utilities
+* JEI
