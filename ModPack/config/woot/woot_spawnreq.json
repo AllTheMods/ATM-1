@@ -1,0 +1,33 @@
+[
+  {
+    "mob": "Woot:none:WitherBoss",
+    "efficiency": true,
+    "items": [
+      {
+        "item": "minecraft:skull:1",
+        "amount": 3
+      },
+      {
+        "item": "minecraft:soul_sand",
+        "amount": 4
+      }
+    ],
+    "fluids": []
+  },
+  {
+    "mob": "Woot:none:EnderDragon",
+    "efficiency": true,
+    "items": [
+	  {
+        "item": "minecraft:end_crystal",
+        "amount": 4
+      }
+	],
+    "fluids": [
+      {
+        "fluid": "ender_distillation",
+        "amount": 100
+      }
+    ]
+  }
+]

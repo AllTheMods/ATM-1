@@ -1,0 +1,71 @@
+{
+  "Woot:none:WitherBoss": {
+    "mob": "Woot:none:WitherBoss",
+    "pools": [
+      {
+        "key": "NO_ENCHANT",
+        "samples": 500,
+        "drops": [
+          {
+            "item": "minecraft:nether_star:0",
+            "count": 200,
+            "weights": [
+              {
+                "stack_size": 1,
+                "weight": 200
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "LOOTING_I",
+        "samples": 500,
+        "drops": [
+          {
+            "item": "minecraft:nether_star:0",
+            "count": 300,
+            "weights": [
+              {
+                "stack_size": 1,
+                "weight": 300
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "LOOTING_II",
+        "samples": 500,
+        "drops": [
+          {
+            "item": "minecraft:nether_star:0",
+            "count": 400,
+            "weights": [
+              {
+                "stack_size": 1,
+                "weight": 400
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "LOOTING_III",
+        "samples": 500,
+        "drops": [
+          {
+            "item": "minecraft:nether_star:0",
+            "count": 500,
+            "weights": [
+              {
+                "stack_size": 1,
+                "weight": 500
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

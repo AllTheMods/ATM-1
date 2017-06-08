@@ -46,8 +46,8 @@ recipes.addShaped(<mobtotems:sacred_light>,
  
 recipes.remove(<notenoughwands:protection_wand>);
 
-recipes.remove(<harvestcraft:saucepanItem>);
-recipes.addShaped(<harvestcraft:saucepanItem>,
+recipes.remove(<harvestcraft:saucepanitem>);
+recipes.addShaped(<harvestcraft:saucepanitem>,
 [[null, <minecraft:iron_ingot>, null],
  [null, <minecraft:iron_block>, null],
  [null, <minecraft:stick>, null]]);
@@ -119,38 +119,50 @@ recipes.remove(<techreborn:smallDust:61>);
 recipes.remove(<techreborn:smallDust:62>); 
 
 
-<ore:nuggetEmerald>.addAll(<ore:nugget_emerald>);
+<ore:nuggetEmerald>.addAll(<ore:nugget_emerald>);
+
 <ore:nugget_emerald>.mirror(<ore:nuggetEmerald>); 
 
-<ore:nuggetDiamond>.addAll(<ore:nugget_diamond>);
+<ore:nuggetDiamond>.addAll(<ore:nugget_diamond>);
+
 <ore:nugget_diamond>.mirror(<ore:Diamond>); 
 
-<ore:nuggetQuartz>.addAll(<ore:nugget_quartz>);
+<ore:nuggetQuartz>.addAll(<ore:nugget_quartz>);
+
 <ore:nugget_quartz>.mirror(<ore:nuggetQuartz>); 
 
-<ore:nuggetCopper>.addAll(<ore:nugget_copper>);
+<ore:nuggetCopper>.addAll(<ore:nugget_copper>);
+
 <ore:nugget_copper>.mirror(<ore:nuggetCopper>); 
 
-<ore:nuggetIron>.addAll(<ore:nugget_iron>);
+<ore:nuggetIron>.addAll(<ore:nugget_iron>);
+
 <ore:nugget_iron>.mirror(<ore:nuggetIron>); 
 
-<ore:nuggetTin>.addAll(<ore:nugget_tin>);
+<ore:nuggetTin>.addAll(<ore:nugget_tin>);
+
 <ore:nugget_tin>.mirror(<ore:nuggetTin>); 
 
-<ore:nuggetLead>.addAll(<ore:nugget_lead>);
+<ore:nuggetLead>.addAll(<ore:nugget_lead>);
+
 <ore:nugget_lead>.mirror(<ore:nuggetLead>); 
 
-<ore:nuggetSilver>.addAll(<ore:nugget_silver>);
+<ore:nuggetSilver>.addAll(<ore:nugget_silver>);
+
 <ore:nugget_silver>.mirror(<ore:nuggetSilver>); 
 
-<ore:nuggetAluminum>.addAll(<ore:nugget_aluminum>);
+<ore:nuggetAluminum>.addAll(<ore:nugget_aluminum>);
+
 <ore:nugget_aluminum>.mirror(<ore:nuggetAluminum>); 
 
-<ore:nuggetNickel>.addAll(<ore:nugget_nickel>);
+<ore:nuggetNickel>.addAll(<ore:nugget_nickel>);
+
 <ore:nugget_nickel>.mirror(<ore:nuggetNickel>); 
 
-<ore:nuggetOsmium>.addAll(<ore:nugget_osmium>);
+<ore:nuggetOsmium>.addAll(<ore:nugget_osmium>);
+
 <ore:nugget_osmium>.mirror(<ore:nuggetOsmium>); 
 
-<ore:nuggetPlatinum>.addAll(<ore:nugget_platinum>);
+<ore:nuggetPlatinum>.addAll(<ore:nugget_platinum>);
+
 <ore:nugget_platinum>.mirror(<ore:nuggetPlatinum>); 

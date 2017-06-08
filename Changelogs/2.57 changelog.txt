@@ -15,20 +15,30 @@ Added Mods
 Updated Mods
 
 - Abyssal
+- advanced rocketry
 - AnalyzeIO
+- armorPlus
 - Baubles
 - Biblio
 - Biomes o plenty
+- BetterFPS
+- CodeChickenLib
 - elec Core
 - ender tanks
+- EnderIO
+- ExtraUtils2
 - immersive petroleum
 - ic2
 - iron chests
+- iron Backpacks
 - moar tinkers
 - modular powersuits
 - mtlib
+- more bees
+- mp utils
 - natura
 - not enough ids
+- lib vulpes
 - pams
 - reborn core
 - rftools dimension
