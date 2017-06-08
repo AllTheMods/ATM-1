@@ -17,12 +17,7 @@
   {
     "mob": "Woot:none:EnderDragon",
     "efficiency": true,
-    "items": [
-	  {
-        "item": "minecraft:end_crystal",
-        "amount": 4
-      }
-	],
+    "items": [],
     "fluids": [
       {
         "fluid": "ender_distillation",

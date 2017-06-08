@@ -7,7 +7,10 @@ Config Changes
 - fixed axle
 - fixed quartz dust
 - Disabled AE2's IC2 support due to bugs
-
+- Nerfed woot:
+	--> Spawnging withers now requires 3 skulls + 4 soulsand
+	--> Dragons needs 100 mb Dew of the void
+	--> Place chest or Tank on top to provide the resources
 
 Added Mods
 - Pam's Cookables
