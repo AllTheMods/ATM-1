@@ -1,0 +1,59 @@
+All The Mods 3.0 Changelog
+###########################
+# possibly world breaking #
+###########################
+
+Config Changes
+
+
+
+Added Mods
+- toolbelt
+- Minefactory Reloaded
+- Thermal Dynamics
+- MineMenu
+
+Removed Mods
+- Ender Tanks
+- Enderthing >> use ender storage on both of them
+
+
+Updated Mods
+
+- Abyssal
+- Advanced Rocketry
+- Architecture Craft
+- Astral Sorcery
+- Brandon's Core
+- Chisel
+- Chisel & Bits
+- CoFH Core
+- CraftTweaker
+- Cyclic
+- Draconic Evolution
+- Elec core
+- EnderIO
+- Extra Utils
+- Extreme Reactors
+- Immersive Engineering
+- Immersive Petroleum
+- Journey Map
+- LipVulpes
+- Modular Powersuits
+- Mystical Agriculture
+- ReAuth
+- Redstone Arsenal
+- Refined Storage
+- Scannable
+- Forgelin
+- Storage Drawers
+- Thermal Expansion
+- Thermal Foundation
+- TOP Addons
+- Unidict
+- Water Strainer
+- Woot
+
+
+
+

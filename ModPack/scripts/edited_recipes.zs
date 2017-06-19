@@ -165,4 +165,5 @@ recipes.remove(<techreborn:smallDust:62>);
 
 <ore:nuggetPlatinum>.addAll(<ore:nugget_platinum>);
 
-<ore:nugget_platinum>.mirror(<ore:nuggetPlatinum>); 
+<ore:nugget_platinum>.mirror(<ore:nuggetPlatinum>);
+
