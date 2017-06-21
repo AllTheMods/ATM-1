@@ -1,54 +1,73 @@
-§2§l§nAll The Mods 2.57 Changelog§r
+§2§lAll The Mods 3.0 Changelog
+
+§2§l###########################
+§2§l# possibly world breaking #
+§2§l###########################
+
+§b§l§Config Changes
+* Added some ores to void miner
+* Removed Router Reborn copper ore from worldgen
 
 
-§b§l§nConfig Changes§r
+§b§l§Added Mods
 
-* properly disabled gift of the gods
-* fixed axle
-* fixed quartz dust
-* Disabled AE2's IC2 support due to bugs
-* Nerfed woot:
-	--> Spawnging withers now requires 3 skulls + 4 soulsand
-	--> Dragons needs 100 mb Dew of the void
-	--> Place chest or Tank on top to provide the resources
+* toolbelt
+* Minefactory Reloaded
+* Thermal Dynamics
+* MineMenu
+* Ore Excavation
+* OreExcavation Integration 
+		>> Needs a Tinkers Modifier or Enchantment to work
+* Hwyla
 
-§b§l§nAdded Mods§r
-* Pam's Cookables
 
-§b§l§nUpdated Mods§r
+§b§l§Removed Mods
+
+* Ender Tanks
+* Enderthing >> use ender storage on both of them
+* Waila >> Replaced by hwyla
+* Correlated >> Copy it from the "disabled_mods" folder for older worlds
+
+
+§b§l§Updated Mods
 
 * Abyssal
-* advanced rocketry
-* AnalyzeIO
-* ArmorPlus
-* Baubles
-* Biblio
-* Biomes o plenty
-* BetterFPS
-* CodeChickenLib
-* ElecCore
-* Ender Tanks
+* Advanced Rocketry
+* Architecture Craft
+* Astral Sorcery
+* AppleCore
+* Brandon's Core
+* Chisel
+* Chisel & Bits
+* CoFH Core
+* ConnectedTexturesMod
+* CraftTweaker
+* Cyclic
+* Draconic Evolution
+* Elec core
 * EnderIO
-* ExtraUtils2
+* Extra Utils
+* Extreme Reactors
+* Immersive Engineering
 * Immersive Petroleum
-* IC2
-* Iron Chests
-* Iron Backpacks
-* MoarTinkers
+* Journey Map
+* LipVulpes
 * Modular Powersuits
-* mtLib
-* More Bees
-* MPUtils
-* Natura
-* NotEnoughIds
-* libVulpes
-* Pam's Harvestcraft
-* RebornCore
-* Rftools Dimension
-* ShetiPhianCore
-* Steve's Carts Reborn
+* Mystical Agriculture
+* ReAuth
+* Redstone Arsenal
+* Refined Storage
+* Scannable
+* Forgelin
 * Storage Drawers
-* TinkersConstruct
+* Simply Jetpacks 2
+* Thermal Expansion
+* Thermal Foundation
 * TOP Addons
-* Dark Utilities
-* JEI
+* Unidict
+* Water Strainer
+* Woot
+
+
+
+
