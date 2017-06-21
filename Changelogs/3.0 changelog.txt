@@ -4,7 +4,8 @@ All The Mods 3.0 Changelog
 ###########################
 
 Config Changes
-
+- Added some ores to void miner
+- Removed Router Reborn copper ore from worldgen
 
 
 Added Mods
@@ -12,10 +13,16 @@ Added Mods
 - Minefactory Reloaded
 - Thermal Dynamics
 - MineMenu
+- Ore Excavation
+- OreExcavation Integration 
+		>> Needs a Tinkers Modifier or Enchantment to work
+- Hwyla
 
 Removed Mods
 - Ender Tanks
 - Enderthing >> use ender storage on both of them
+- Waila >> Replaced by hwyla
+- Correlated >> Copy it from the "disabled_mods" folder for older worlds
 
 
 Updated Mods
@@ -24,10 +31,12 @@ Updated Mods
 - Advanced Rocketry
 - Architecture Craft
 - Astral Sorcery
+- AppleCore
 - Brandon's Core
 - Chisel
 - Chisel & Bits
 - CoFH Core
+- ConnectedTexturesMod
 - CraftTweaker
 - Cyclic
 - Draconic Evolution
@@ -47,6 +56,7 @@ Updated Mods
 - Scannable
 - Forgelin
 - Storage Drawers
+- Simply Jetpacks 2
 - Thermal Expansion
 - Thermal Foundation
 - TOP Addons

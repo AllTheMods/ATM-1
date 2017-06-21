@@ -432,6 +432,60 @@
       "oreName": "oreBauxite",
       "focusColor": "brown",
       "weight": 18
+    },
+	{
+      "oreName": "oreSunstone",
+      "focusColor": "orange",
+      "weight": 2
+    },
+	{
+      "oreName": "oreMonazit",
+      "focusColor": "green",
+      "weight": 16
+    },
+	{
+      "oreName": "oreGalena",
+      "focusColor": "purple",
+      "weight": 10
+    },
+	{
+      "oreName": "oreLavaCrystal",
+      "focusColor": "orange",
+      "weight": 8
+    },
+	{
+      "oreName": "oreThorium",
+      "focusColor": "black",
+      "weight": 14
+    },
+	{
+      "oreName": "oreBoron",
+      "focusColor": "gray",
+      "weight": 14
+    },{
+      "oreName": "oreLithium",
+      "focusColor": "white",
+      "weight": 12
+    },
+	{
+      "oreName": "oreMagnesium",
+      "focusColor": "white",
+      "weight": 10
+    },
+	{
+      "oreName": "oreFluidRedstone",
+      "focusColor": "red",
+      "weight": 6
+    },
+	{
+      "oreName": "oreFluidCrudeOilSand",
+      "focusColor": "black",
+      "weight": 10
+    },
+	{
+      "oreName": "oreFluidCrudeOilShale",
+      "focusColor": "black",
+      "weight": 10
     }
   ]
 }
