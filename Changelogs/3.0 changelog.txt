@@ -18,11 +18,11 @@ Added Mods
 		>> Needs a Tinkers Modifier or Enchantment to work
 - Hwyla
 
+
 Removed Mods
 - Ender Tanks
 - Enderthing >> use ender storage on both of them
 - Waila >> Replaced by hwyla
-- Correlated >> Copy it from the "disabled_mods" folder for older worlds
 
 
 Updated Mods
@@ -44,6 +44,7 @@ Updated Mods
 - EnderIO
 - Extra Utils
 - Extreme Reactors
+- Forestry
 - Immersive Engineering
 - Immersive Petroleum
 - Journey Map
