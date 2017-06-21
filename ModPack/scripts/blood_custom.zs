@@ -364,37 +364,3 @@ recipes.addShaped(<crossroads:axle> * 1, 	[[null, null, <ore:rodIron>],
 # mirror Quartz
 <ore:dustNetherQuartz>.addAll(<ore:dustQuartz>);
 <ore:dustQuartz>.mirror(<ore:dustNetherQuartz>); 
-
-# Tinkers Addons Plate fix
-recipes.remove(<tinkersaddons:modifier_item:*>);
-# iron
-var currentPlate = <tconstruct:large_plate>.withTag({Material: "iron"});
-var currentBlock = <ore:blockPigiron>;
-recipes.addShaped(<tinkersaddons:modifier_item:1>,
-	[[null, null, null],
-	[currentPlate, currentBlock, currentPlate],
-	[currentPlate, currentPlate, currentPlate]]);
-
-# gold
-currentPlate = <tconstruct:large_plate>.withTag({Material: "ardite"});
-currentBlock = <ore:blockGold>;
-recipes.addShaped(<tinkersaddons:modifier_item:2>,
-	[[null, null, null],
-	[currentPlate, currentBlock, currentPlate],
-	[currentPlate, currentPlate, currentPlate]]);
-
-# dia
-currentPlate = <tconstruct:large_plate>.withTag({Material: "prismarine"});
-currentBlock = <ore:blockDiamond>;
-recipes.addShaped(<tinkersaddons:modifier_item:3>,
-	[[null, null, null],
-	[currentPlate, currentBlock, currentPlate],
-	[currentPlate, currentPlate, currentPlate]]);
-
-# dia
-currentPlate = <tconstruct:large_plate>.withTag({Material: "obsidian"});
-currentBlock = <ore:enderpearl>;
-recipes.addShaped(<tinkersaddons:modifier_item:4>,
-	[[null, null, null],
-	[currentPlate, currentBlock, currentPlate],
-	[currentPlate, currentPlate, currentPlate]]);
