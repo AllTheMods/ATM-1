@@ -13,6 +13,7 @@ val lead = <ore:ingotLead>;
 val silver = <ore:ingotSilver>;
 val uranium = <ore:ingotUranium>;
 val invar = <ore:ingotInvar>;
+val ruby = <ore:gemRuby>;
 
 ## all Nether Metals ores
 <ore:oreIronNether>.add(<nethermetals:nether_iron_ore>);
@@ -364,3 +365,10 @@ recipes.addShaped(<crossroads:axle> * 1, 	[[null, null, <ore:rodIron>],
 # mirror Quartz
 <ore:dustNetherQuartz>.addAll(<ore:dustQuartz>);
 <ore:dustQuartz>.mirror(<ore:dustNetherQuartz>); 
+
+# fixed ruby dupe
+recipes.remove(<techreborn:techreborn.storage2:3>);
+recipes.remove(<biomesoplenty:gem_block:1>);
+
+recipes.addShapeless(<techreborn:techreborn.storage2:3> * 1, 
+	[ruby, ruby, ruby, ruby, ruby, ruby, ruby, ruby, ruby]);
