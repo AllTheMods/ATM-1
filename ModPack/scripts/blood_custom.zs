@@ -200,18 +200,6 @@ recipes.addShaped(<notenoughwands:acceleration_wand> * 1,
 	[<mekanism:AtomicAlloy>, <abyssalcraft:essence:2>, <draconicevolution:draconic_ingot>],
 	[<techreborn:ingot:16>, <botania:manaResource:14>, <notenoughwands:advanced_wandcore>]]);
 
-
-# wireless terminal back in
-recipes.remove(<appliedenergistics2:wireless_terminal>);
-recipes.addShaped(<appliedenergistics2:wireless_terminal> * 1,
-	[[null, <appliedenergistics2:material:41>, null],
-	[null, <appliedenergistics2:part:380>, null],
-	[<appliedenergistics2:part:16>, <enderio:blockCapBank:3>, <appliedenergistics2:part:16>]]);
-recipes.addShaped(<appliedenergistics2:wireless_terminal> * 1,
-	[[null, <appliedenergistics2:material:41>, null],
-	[null, <appliedenergistics2:part:380>, null],
-	[<appliedenergistics2:part:16>, <mekanism:EnergyCube>.withTag({tier: 3}), <appliedenergistics2:part:16>]]);
-
 #xtones back to stonetiles
 recipes.addShapeless(<xtones:base>, [<xtones:agon:*>]);
 recipes.addShapeless(<xtones:base>, [<xtones:zech:*>]);
@@ -342,17 +330,6 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "electrod
 	[[<ore:ingotPulsatingIron>, <ore:ingotPulsatingIron>, <ore:ingotPulsatingIron>],
 	[<immersiveengineering:mold:2>, <immersiveengineering:blueprint>.withTag({blueprint: "bullet"}), <immersiveengineering:mold:2>],
 	[<ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>]]);
-
-#Quantum Ring
-recipes.addShaped(<appliedenergistics2:quantum_ring>, 
-	[[iron, <appliedenergistics2:material:22>, iron],
-	[<appliedenergistics2:material:24>, <mekanism:EnergyCube>.withTag({tier: 3}), <appliedenergistics2:part:76>],
-	[iron, <appliedenergistics2:material:22>, iron]]);
-
-recipes.addShaped(<appliedenergistics2:quantum_ring>, 
-	[[iron, <appliedenergistics2:material:22>, iron],
-	[<appliedenergistics2:material:24>, <enderio:blockCapBank:3>, <appliedenergistics2:part:76>],
-	[iron, <appliedenergistics2:material:22>, iron]]);
 
 # disabled gift of the gods
 mods.armorplus.Workbench.remove(<armorplus:the_gift_of_the_gods>);
