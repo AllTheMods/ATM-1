@@ -370,3 +370,7 @@ recipes.addShaped(<powersuits:powerArmorHead> * 1, 	[[<ore:plateIron>, <ore:plat
 // SHOES
 recipes.addShaped(<powersuits:powerArmorFeet> * 1, 	[[<ore:circuitBasic>, null, <ore:circuitBasic>],
 													[<ore:plateIron>, null, <ore:plateIron>]]);
+
+
+// Saguaro Fruit fix
+recipes.addShapeless(<natura:saguaro_fruit_item>, [<natura:saguaro_fruit>]);
