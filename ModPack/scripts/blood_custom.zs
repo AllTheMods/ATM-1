@@ -349,3 +349,24 @@ recipes.remove(<biomesoplenty:gem_block:1>);
 
 recipes.addShapeless(<techreborn:techreborn.storage2:3> * 1, 
 	[ruby, ruby, ruby, ruby, ruby, ruby, ruby, ruby, ruby]);
+
+// Modular powersuite fixes
+// FIST
+recipes.addShaped(<powersuits:powerTool> * 1, 	[[null, <ore:circuitBasic>, null],
+												[<ore:circuitBasic>, <ore:plateIron>, null],
+												[null, <ore:plateIron>, <ore:circuitBasic>]]);
+// CHEST
+recipes.addShaped(<powersuits:powerArmorTorso> * 1, 	[[<ore:plateIron>, null, <ore:plateIron>],
+														[<ore:circuitBasic>, <ore:plateIron>, <ore:circuitBasic>],
+														[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+// LEGGINGS
+recipes.addShaped(<powersuits:powerArmorLegs> * 1, 	[[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
+													[<ore:circuitBasic>, null, <ore:circuitBasic>],
+													[<ore:plateIron>, null, <ore:plateIron>]]);
+// HEAD
+recipes.addShaped(<powersuits:powerArmorHead> * 1, 	[[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
+													[<ore:circuitBasic>, null, <ore:circuitBasic>]]);
+
+// SHOES
+recipes.addShaped(<powersuits:powerArmorFeet> * 1, 	[[<ore:circuitBasic>, null, <ore:circuitBasic>],
+													[<ore:plateIron>, null, <ore:plateIron>]]);
