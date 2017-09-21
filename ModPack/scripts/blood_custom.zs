@@ -1,8 +1,8 @@
-# Custom recipes made by BloodWorkXGaming
+// Custom recipes made by BloodWorkXGaming
 print("--- loading blood_custom.zs ---");
 
 
-# Some vals
+// Some vals
 val iron = <ore:ingotIron>;
 val tin = <ore:ingotTin>;
 val gold = <ore:ingotGold>;
@@ -15,7 +15,7 @@ val uranium = <ore:ingotUranium>;
 val invar = <ore:ingotInvar>;
 val ruby = <ore:gemRuby>;
 
-## all Nether Metals ores
+//// all Nether Metals ores
 <ore:oreIronNether>.add(<nethermetals:nether_iron_ore>);
 <ore:oreLapisNether>.add(<nethermetals:nether_lapis_ore>);
 <ore:oreRedstoneNether>.add(<nethermetals:nether_redstone_ore>);
@@ -48,7 +48,7 @@ val ruby = <ore:gemRuby>;
 <ore:oreUraniumNether>.add(<nethermetals:nether_uranium_ore>);
 <ore:oreZirconiumNether>.add(<nethermetals:nether_zirconium_ore>);
 
-## all End Metals ores
+//// all End Metals ores
 <ore:oreIronEnd>.add(<endmetals:end_iron_ore>);
 <ore:oreLapisEnd>.add(<endmetals:end_lapis_ore>);
 <ore:oreRedstoneEnd>.add(<endmetals:end_redstone_ore>);
@@ -81,7 +81,7 @@ val ruby = <ore:gemRuby>;
 <ore:oreUraniumEnd>.add(<endmetals:end_uranium_ore>);
 <ore:oreZirconiumEnd>.add(<endmetals:end_zirconium_ore>);
 
-# other ores from other mods
+// other ores from other mods
 <ore:oreBiotiteEnd>.add(<quark:biotite_ore>);
 <ore:oreRockCrystal>.add(<astralsorcery:BlockCustomOre:0>);
 <ore:oreStarmetal>.add(<astralsorcery:BlockCustomOre:1>);
@@ -90,20 +90,20 @@ val ruby = <ore:gemRuby>;
 <ore:oreDraconiumNether>.add(<draconicevolution:draconium_ore:1>);
 
 
-# Metalstick fixes
-# iron
+// Metalstick fixes
+// iron
 recipes.removeShaped(<ore:rodIron>);
 recipes.removeShaped(<ore:stickIron>);
 recipes.addShaped(<substratum:rod:0> * 4, 	[[iron], [iron], [iron]]);
 
-# steel
+// steel
 recipes.removeShaped(<ore:rodSteel>);
 recipes.removeShaped(<ore:stickSteel>);
 recipes.addShaped(<substratum:rod:11> * 4, 	[[steel], [steel], [steel]]);
 
 
 
-# Gearfixes
+// Gearfixes
 recipes.removeShaped(<ore:gearIron>);	
 recipes.removeShaped(<ore:gearGold>);
 recipes.removeShaped(<ore:gearTin>);
@@ -113,7 +113,7 @@ recipes.removeShaped(<ore:gearSteel>);
 recipes.removeShaped(<ore:gearInvar>);
 recipes.removeShaped(<ore:gearStone>);
 
-# adding them back in											
+// adding them back in
 recipes.addShaped(<substratum:gear:1> * 1, 	[[null, iron, null],
 											[iron, iron, iron],
 											[null, iron, null]]);
@@ -143,64 +143,64 @@ recipes.addShaped(<substratum:gear:0> * 1, 	[[null, <ore:cobblestone>, null],
 											[<ore:cobblestone>, <ore:stickWood>, <ore:cobblestone>],
 											[null, <ore:cobblestone>, null]]);
 											
-# Ember Plates
+// Ember Plates
 recipes.removeShapeless(<ore:plateGold>, [<embers:tinkerHammer>, gold, gold, gold, gold]);
 recipes.removeShapeless(<ore:plateCopper>, [<embers:tinkerHammer>, copper, copper, copper, copper]);
 recipes.removeShapeless(<ore:plateLead>, [<embers:tinkerHammer>, lead, lead, lead, lead]);
 recipes.removeShapeless(<ore:plateSilver>, [<embers:tinkerHammer>, silver, silver, silver, silver]);
 recipes.removeShapeless(<ore:plateIron>, [<embers:tinkerHammer>, iron, iron, iron, iron]);
 
-# yellorium seeds
+// yellorium seeds
 recipes.remove(<mysticalagriculture:yellorium_seeds>);
 recipes.addShaped(<mysticalagriculture:yellorium_seeds> * 1, 	[[uranium, <mysticalagriculture:supremium_essence>, uranium],
 																[<mysticalagriculture:supremium_essence>, <mysticalagriculture:tier5_crafting_seed>, <mysticalagriculture:supremium_essence>],
 																[uranium, <mysticalagriculture:supremium_essence>, uranium]]);
 
-# Any chest to oak chest (since it conflicts)
+// Any chest to oak chest (since it conflicts)
 recipes.addShapeless(<minecraft:chest> * 1, [<quark:custom_chest:*>]);
-# same with bed
+// same with bed
 recipes.addShapeless(<minecraft:bed> * 1, [<quark:colored_bed_item:*>]);
 
-# carbonplates fix
+// carbonplates fix
 recipes.removeShapeless(<techreborn:part:35>);
 recipes.addShapeless(<techreborn:part:35> * 2, [<ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>]);
 
-#neutrons
+//neutrons
 recipes.remove(<techreborn:part:26>);
 recipes.addShaped(<techreborn:part:26> * 1, 	[[<ore:dustCoal>, <ore:dustTin>, <ore:dustCoal>],
 												[<ore:dustTin>, <ore:plateCopper>, <ore:dustTin>],
 												[<ore:dustCoal>, <ore:dustTin>, <ore:dustCoal>]]);
-# silicon ingots added back in
+// silicon ingots added back in
 recipes.addShapeless(<libvulpes:productingot:3> * 1, [<enderio:itemMaterial:0>]);
 recipes.removeShaped(<enderio:itemMaterial:0>);
 recipes.addShaped(<libvulpes:productingot:3> * 1,	[[<libvulpes:productnugget:3>, <libvulpes:productnugget:3>, <libvulpes:productnugget:3>],
 													 [<libvulpes:productnugget:3>, <libvulpes:productnugget:3>, <libvulpes:productnugget:3>],
 													 [<libvulpes:productnugget:3>, <libvulpes:productnugget:3>, <libvulpes:productnugget:3>]]);
 
-# pams fixes
+// pams fixes
 <ore:foodSalt>.add(<mekanism:Salt>);
 recipes.remove(<harvestcraft:bubblywateritem>);
 recipes.addShapeless(<harvestcraft:bubblywateritem> * 1, [<ore:toolJuicer>, <ore:listAllwater>]);
 recipes.addShapeless(<harvestcraft:saltitem> * 1, [<ore:toolPot>, <ore:listAllwater>]);
 
-# oredict for yellorium (to get ic2 uranium)
+// oredict for yellorium (to get ic2 uranium)
 <ore:oreUranium>.add(<bigreactors:brore>);
 
-# practical book fix
+// practical book fix
 recipes.remove(<practicallogistics2:PLGuide>);
 recipes.addShapeless(<practicallogistics2:PLGuide> * 1, [<ore:gemSapphire>, <minecraft:book>]);
 
-# resonant Ender in smeltery
+// resonant Ender in smeltery
 mods.tconstruct.Smeltery.addMelting(<liquid:ender> * 250, <ore:enderpearl>, 400);
 
-# harder accel wand
+// harder accel wand
 recipes.remove(<notenoughwands:acceleration_wand>);
 recipes.addShaped(<notenoughwands:acceleration_wand> * 1,
 	[[<minecraft:dragon_egg>, <mekanism:AtomicAlloy>, <taiga:adamant_ingot>],
 	[<mekanism:AtomicAlloy>, <abyssalcraft:essence:2>, <draconicevolution:draconic_ingot>],
 	[<techreborn:ingot:16>, <botania:manaResource:14>, <notenoughwands:advanced_wandcore>]]);
 
-#xtones back to stonetiles
+//xtones back to stonetiles
 recipes.addShapeless(<xtones:base>, [<xtones:agon:*>]);
 recipes.addShapeless(<xtones:base>, [<xtones:zech:*>]);
 recipes.addShapeless(<xtones:base>, [<xtones:zoea:*>]);
@@ -236,7 +236,7 @@ recipes.addShapeless(<xtones:base>, [<xtones:fort:*>]);
 recipes.addShapeless(<xtones:base>, [<xtones:myst:*>]);
 recipes.addShapeless(<xtones:base>, [<xtones:reed:*>]);
 
-# populated tome
+// populated tome
 recipes.addShaped(<akashictome:tome>.withTag({display: {Name: "Akashmic Tome: craft to populate"}}), [[<minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>],[<minecraft:bookshelf>, <akashictome:tome>, <minecraft:bookshelf>], [<minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>]]);
 
 recipes.addShapeless(
@@ -244,22 +244,22 @@ recipes.addShapeless(
 	, [<akashictome:tome>.withTag({display: {Name: "Akashmic Tome: craft to populate"}})]);
 
 
-# overgrowth seeds
+// overgrowth seeds
 recipes.addShaped(<botania:overgrowthSeed>, [[<botania:manaResource:5>, <botania:manaResource:5>, <botania:manaResource:5>],[<botania:manaResource:5>, <botania:grassSeeds>, <botania:manaResource:5>], [<botania:manaResource:5>, <botania:manaResource:5>, <botania:manaResource:5>]]);
 
-# enchanted ingot
+// enchanted ingot
 mods.tconstruct.Smeltery.addAlloy(<liquid:enchantedmetal> * 1, [<liquid:xpjuice> * 32, <liquid:gold> * 2, <liquid:vibrantalloy>*4]);
 
-# crusher certus and fluix
+// crusher certus and fluix
 mods.actuallyadditions.Crusher.addRecipe(<appliedenergistics2:material>, <appliedenergistics2:material:2>);
 mods.actuallyadditions.Crusher.addRecipe(<appliedenergistics2:material:1>, <appliedenergistics2:material:2>);
 mods.actuallyadditions.Crusher.addRecipe(<appliedenergistics2:material:7>, <appliedenergistics2:material:8>);
 
-# jetpack fix
+// jetpack fix
 recipes.remove(<simplyjetpacks:metaItemMods:4>);
 recipes.addShaped(<simplyjetpacks:metaItemMods:4>, [[<ore:ingotConductiveIron>, <enderio:itemBasicCapacitor>, <ore:ingotConductiveIron>], [<enderio:itemRedstoneConduit>, <enderio:itemBasicCapacitor>, <enderio:itemRedstoneConduit>], [<ore:gearStone>, <ore:dustRedstone>, <ore:gearStone>]]);
 
-# enderio alloys in tinkers
+// enderio alloys in tinkers
 mods.tconstruct.Smeltery.addMelting(<liquid:fluidsilicon> * 100, <ore:itemSilicon>, 600);
 mods.tconstruct.Smeltery.addMelting(<liquid:coal> * 50, <ore:coal>, 600);
 mods.tconstruct.Smeltery.addMelting(<liquid:coal> * 100, <ore:dustCoal>, 600);
@@ -280,17 +280,17 @@ mods.tconstruct.Smeltery.addAlloy(<liquid:darksteel> * 144, [<liquid:coal> * 100
 mods.tconstruct.Casting.addTableRecipe(<enderio:itemAlloy:7>, <liquid:gold> * 144, <minecraft:soul_sand>, true, 20);
 mods.tconstruct.Casting.addBasinRecipe(<enderio:itemAlloy:7>, <liquid:gold> * 144, <minecraft:soul_sand>, true, 20);
 
-# meka boiler fix
+// meka boiler fix
 recipes.remove(<mekanism:BasicBlock2:7>);
 recipes.addShaped(<mekanism:BasicBlock2:7> * 8, [[null, <ore:ingotSteel>, null],[<ore:ingotSteel>, <mekanism:BasicBlock:8>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 
-# ic2 adv circuit
+// ic2 adv circuit
 recipes.remove(<ic2:crafting:2>);
 recipes.addShaped(<ic2:crafting:2> * 1, 	[[<ore:dustRedstone>, <ore:gemLapis>, <ore:dustRedstone>],
 												[<ore:dustGlowstone>, <ore:circuitBasic>, <ore:dustGlowstone>],
 												[<ore:dustRedstone>, <ore:gemLapis>, <ore:dustRedstone>]]);
 
-# pressure plate exploit fix
+// pressure plate exploit fix
 mods.tconstruct.Smeltery.removeMelting(<minecraft:heavy_weighted_pressure_plate>);
 mods.tconstruct.Smeltery.removeMelting(<minecraft:light_weighted_pressure_plate>);
 mods.tconstruct.Smeltery.removeMelting(<minecraft:iron_bars>);
@@ -299,12 +299,12 @@ mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 36, <minecraft:iron_bars>, 5
 mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 144, <minecraft:heavy_weighted_pressure_plate>, 591);
 mods.tconstruct.Smeltery.addMelting(<liquid:gold> * 144, <minecraft:light_weighted_pressure_plate>, 591);
 
-# prosp crusher
+// prosp crusher
 mods.actuallyadditions.Crusher.addRecipe(<mysticalagriculture:end_prosperity_ore>, <mysticalagriculture:prosperity_shard> * 3, <mysticalagriculture:prosperity_shard> * 2, 40);
 mods.actuallyadditions.Crusher.addRecipe(<mysticalagriculture:prosperity_ore>, <mysticalagriculture:prosperity_shard> * 3, <mysticalagriculture:prosperity_shard> * 2, 40);
 mods.actuallyadditions.Crusher.addRecipe(<mysticalagriculture:nether_prosperity_ore>, <mysticalagriculture:prosperity_shard> * 3, <mysticalagriculture:prosperity_shard> * 2, 40);
 
-# Quantum tank
+// Quantum tank
 recipes.remove(<techreborn:techreborn.quantumTank>);
 recipes.remove(<techreborn:techreborn.quantumChest>);
 recipes.remove(<techreborn:techreborn.digitalChest>);
@@ -314,13 +314,13 @@ recipes.addShaped(<techreborn:techreborn.quantumTank> * 1, 	[[<techreborn:part:3
 												[<techreborn:part:3>, <mekanism:MachineBlock2:11>.withTag({tier: 3}), <techreborn:part:3>]]);
 
 
-# Dilithium Block casting
+// Dilithium Block casting
 mods.tconstruct.Casting.addBasinRecipe(<taiga:dilithium_block>, <liquid:dilithium_fluid> * 1296, null, false, 600);
-# oredict removal
+// oredict removal
 <ore:oreDilithium>.remove(<taiga:dilithium_block>);
 <ore:oreDilithium>.add(<taiga:dilithium_ore>);
 
-# custom recipes blueprints
+// custom recipes blueprints
 recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}), 
 	[[<ore:ingotCopper>, <ore:ingotSignalum>, <ore:ingotCopper>],
 	[<immersiveengineering:bullet:2>.withTag({bullet: "HE"}), <immersiveengineering:blueprint>.withTag({blueprint: "bullet"}), <immersiveengineering:bullet:2>.withTag({bullet: "HE"})],
@@ -331,19 +331,19 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "electrod
 	[<immersiveengineering:mold:2>, <immersiveengineering:blueprint>.withTag({blueprint: "bullet"}), <immersiveengineering:mold:2>],
 	[<ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>]]);
 
-# disabled gift of the gods
+// disabled gift of the gods
 mods.armorplus.Workbench.remove(<armorplus:the_gift_of_the_gods>);
 
-# axle
+// axle
 recipes.addShaped(<crossroads:axle> * 1, 	[[null, null, <ore:rodIron>],
 											[null, <ore:rodIron>, null],
 											[<ore:rodIron>, null, null]]);
 
-# mirror Quartz
+// mirror Quartz
 <ore:dustNetherQuartz>.addAll(<ore:dustQuartz>);
 <ore:dustQuartz>.mirror(<ore:dustNetherQuartz>); 
 
-# fixed ruby dupe
+// fixed ruby dupe
 recipes.remove(<techreborn:techreborn.storage2:3>);
 recipes.remove(<biomesoplenty:gem_block:1>);
 
@@ -374,3 +374,10 @@ recipes.addShaped(<powersuits:powerArmorFeet> * 1, 	[[<ore:circuitBasic>, null, 
 
 // Saguaro Fruit fix
 recipes.addShapeless(<natura:saguaro_fruit_item>, [<natura:saguaro_fruit>]);
+
+
+// silcon essence fix
+val silicon_essence = <mysticalagriculture:silicon_essence>;
+recipes.addShaped(<enderio:itemMaterial> * 4, 	[[silicon_essence, silicon_essence,silicon_essence],
+												[silicon_essence, null, silicon_essence],
+												[silicon_essence, silicon_essence, silicon_essence]]);
