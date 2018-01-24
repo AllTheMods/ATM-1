@@ -1,0 +1,688 @@
+All the Mods [DEV] allthemods 1.10.2 v3.03 to All the Mods v4.0
+
+Added:
+	- Thaumcraft
+
+Updated:
+	AbyssalCraft (went from AbyssalCraft-1.10.2-1.9.4-pre-4.jar to AbyssalCraft-1.10.2-1.9.4.3.jar):
+		AbyssalCraft-1.10.2-1.9.4.3.jar:
+			 * Added a barfing sound to Dreadguards and Cha'garoth (instead of playing the sound for when a Ghast shoots a fireball) 
+			 * Added Crystallized Calcium, Beryllium and Beryl 
+			 * Materializer recipes can now be displayed in JEI 
+			 * The biome transformation from Cha'garoth and his Dreaded Charges has been optimized (code only runs on the server, only affects non-dreadlands biomes) 
+			 * The Rending Pedestal works on Omothol creatures again 
+			 * Rather than crashing, an error will be logged when failing to convert an ItemStack from the Ore Dictionary into a BlockState during startup 
+			 * Overworld structure generation now checks for the Overworld World Provider rather than Dimension ID 
+		AbyssalCraft-1.10.2-1.9.4.2.jar:
+			 * The JEI plugin no longer stops at Transmutator Fuel recipe registration 
+			 * The State Transformer's extraction mechanic now works 
+			 * Ticking Tile Entities that don't do anything client side no longer ticks client side 
+			 * Added a hurt sound to Anti-Players that those who played Minecraft before beta ended might recognize (props to BordListian for letting me know of it's prescence in Better With Mods) 
+			 * Non-player entities can now use portals 
+			 * Anti-mobs now attack their regular countepart (for more destruction and chaos) and Anti-Players has a chance of targeting any non Anti-Player 
+			 * Mobs capable of spreading the Dread Plague no longer tries to apply it on something that's already immune to it 
+			 * Added a new attack to Shadow Beasts and Sacthoth (credits to Enderman_of_D00M for the code) 
+			 * The Materializer is now functional 
+			 * Greater Dread Spawns and Lesser Dreadbeasts now swap between melee and ranged attacks 
+			 * Added a new attack to Dreadguards (credits to Enderman_of_D00M for the code) 
+			 * Cha'garoth's heads now move independantly, and each has attacks of their own (credits to Enderman_of_D00M for the code) 
+			 * Loot Tables are now initialized during loading stages (instead of being initialized when something relying on one of them references it) 
+			 * Disruption Packets now send the correct String value representation of the Deity, stopping even more error log spam 
+			 * The beams that spawn during Asorah's death animation are now more properly colored 
+			 * J'zahar has longer reach for his staff-whacking 
+			 * J'zahar is now immune to fire, explosions, magic and fall damage 
+			 * Adjusted the bounding boxes and eye heights of Remnant and Minions of The Gatekeeper 
+			 * Spectral Dragons now only knocks mobs and players away in Hardcore Mode 
+			 * Dreadium Samurai armor now reduces the amount of Dread damage you receive 
+			 * Materializer recipes can now be displayed in the Necronomicon 
+			 * Spectral Dragons now only lose health when Asorah doesn't have full health 
+		AbyssalCraft-1.10.2-1.9.4.1.jar:
+			 * The JEI plugin now properly filters out invalid Transmutator and Crystallizer fuels 
+			 * Baby Lesser Shoggoths are 40% slower now (compared to their movement speed in previous versions) 
+		AbyssalCraft-1.10.2-1.9.4.jar:
+			 * Added a configurable list of mobs to spawn Demon Animals from on death 
+			 * Maps now works inside AbyssalCraft dimensions 
+			 * The Necronomicon now saves the last page viewed before closing (doesn't persist across restarts, however) 
+			 * Increased the spawn rate of shadow mobs in Darklands biomes 
+			 * Shadow Creatures now have a guaranteed chance of dropping Shadow Fragments 
+			 * Shoggoth Ooze no longer spreads on Monolith Stone 
+			 * Greatly increased the spawn chance of Shoggoth Lairs while making it more configurable 
+			 * If a ritual doesn't have a description, the Necronomicon won't try to display it on the ritual page 
+			 * Optimized the performance of Energy Relays slightly (probably mostly noticeable in larger networks of them) 
+			 * Disruption packets without a Deity are now properly handled, stopping the error log spam 
+			 * Shoggoth Ooze is now corrosive, dealing durability damage to leg and foot armor while exposed to it 
+			 * The NecroData Capability now filters out things that are no longer registered on load 
+			 * All Ethaxium blocks (dark or not) are now Ender Dragon and Wither-proof 
+			 * Portal blocks now fire the EntityTravelToDimensionEvent prior to teleporting the player, making it possible to cancel teleportation between AbyssalCraft dimensions 
+			 * Added additional buttons to the Necronomicon GUI (skip multiple pages, go back multiple pages, go back to the front page) 
+			 * Energy Relays can now collect PE from Energy Containers too 
+			 * Fixed the eye layer on the Anti-Spiders (now the eyes are the only bits that glow, instead of the whole spider) 
+			 * Ritual altar sacrifices can now also be NBT sensitive 
+			 * Added a config option to stop armor sets from applying Potion Effects or dispell other Potion Effects 
+			 * Added scrolls (currently not usable, nor craftable) 
+			 * Spells are close to being fully implemented, with most of the backing code done 
+
+	Advanced Rocketry (went from AdvancedRocketry-1.10.2-1.2.2.jar to AdvancedRocketry-1.10.2-1.2.5a.jar):
+		AdvancedRocketry-1.10.2-1.2.5a.jar:
+			Remove botched event
+		AdvancedRocketry-1.10.2-1.2.5.jar:
+			- Added spoop
+
+			- updated blast furnace textures
+
+			- fix speed bug in prescision assembler
+
+			- misc bugfixes
+		AdvancedRocketry-1.10.2-1.2.4.jar:
+			bugfixes
+
+	AppleCore (went from AppleCore-mc1.10.2-2.2.2.jar to AppleCore-mc1.10.2-3.1.0.jar):
+		AppleCore-mc1.10.2-3.1.0.jar:
+			Added some features to the API related to block-based foods:
+
+			 * Added IEdibleBlock with methods to control whether or not Block-based foods can be eaten at max hunger (like ItemFood.alwaysEdible) 
+			 * AppleCore implements IEdibleBlock on BlockCake at runtime, so you can make it always edible by doing `((IEdibleBlock) Blocks.cake).setEdibleAtMaxHunger(true)` 
+			 * Added IAppleCoreRegistry (AppleCoreAPI.registry) to register Block <-> Item relationships for Block-based foods that don't use an ItemBlock (e.g. cake) 
+			 * See [this wiki page for more information](https://github.com/squeek502/AppleCore/wiki/Integrating-food-items-with-AppleCore#block-based-foods-like-cake) 
+		AppleCore-mc1.10.2-3.0.0.jar:
+			 * Breaking API change: Removed FertilizationEvent entirely 
+			 * This event and the ASM required for it has been a constant source of hard-to-debug errors and it isn't worth the effort to maintain 
+			 * As far as I'm aware this event has never been used by any mod that depends on AppleCore, so upgrading shouldn't affect any current AppleCore users 
+			 * Added zh_TW translation (thanks hugoalh) 
+
+	AppleSkin (went from AppleSkin-mc1.10.2-1.0.8.jar to AppleSkin-mc1.10.2-1.0.9.jar):
+		AppleSkin-mc1.10.2-1.0.9.jar:
+			Added support for scaling displayed food values based on max hunger (if it's modified by AppleCore)
+
+			 * Fixes food values being displayed incorrectly when Better With Mods is installed and the HC Hunger module is enabled 
+
+	Baubles (went from Baubles-1.10.2-1.3.11.jar to Baubles-1.10.2-1.3.13.jar):
+		Baubles-1.10.2-1.3.13.jar:
+			- API: added isBaubleEquipped helper method to BaublesAPI
+
+	Brandon's Core (went from Brandon's Core 1.10.2-2.1.12.130-universal to Brandon's Core 1.10.2-2.1.14.137-universal):
+		Brandon's Core 1.10.2-2.1.14.137-universal:
+			No changelog provided.
+		Brandon's Core 1.10.2-2.1.13.133-universal:
+			No changelog provided.
+
+	Chisel (went from Chisel - MC1.10.2-0.0.14.33 to Chisel - MC1.10.2-0.1.1.39):
+		Chisel - MC1.10.2-0.1.1.39:
+			Chisel MC1.10.2-0.1.1.39
+			New
+
+			 - Default chisel durabilities were slightly buffed, to make them even multiples of 64. To get these new values, remove the durability configs from your config file.
+
+			Fixes
+
+			 - [#594](https://github.com/Chisel-Team/Chisel/issues/594) Fix factory block recipe output being an empty stack
+			 - [#598](https://github.com/Chisel-Team/Chisel/issues/598) Fix oredict conversion groups only working one-way, it should now actually be possible to create chisel's ingot blocks!
+			 - [#606](https://github.com/Chisel-Team/Chisel/issues/606) Fix crash when in-world chiseling oredict variants
+			 - [#605](https://github.com/Chisel-Team/Chisel/issues/605) Fix factory blocks having the same recipe as Tyrian (Tyrian recipe was corrected)
+			 - Fix iron/diamond chisel incorrectly handling a chisel breaking partially through crafting a stack
+			 - Fix chisel sound playing twice in iChisel
+		Chisel - MC1.10.2-0.1.0.38:
+			 Fix a mistake in the IChiselItem API 
+		Chisel - MC1.10.2-0.1.0.37:
+			 Fix crash on dedicated servers 
+		Chisel - MC1.10.2-0.1.0.36:
+			Chisel MC1.10.2-0.1.0.36
+
+			New
+			 - First beta release!
+			 - Chisel modes are back and better than ever. The diamond chisel supports the good old 4 modes you know and love, and the iChisel has two new extra-powerful modes for mass chiseling.
+			 - New sounds for chiseling dirt blocks
+			 - All config options are now functional
+			 - [#86](https://github.com/Chisel-Team/Chisel/issues/86) Paintings can now be chiseled
+
+			Changes
+			 - iChisel preview is now rendered with perspective
+			 - Did a pass over all sounds in the mod, to make sure they work on servers
+			 - Improve readability of chisel tooltips
+			 - Improvements to the IChiselItem API
+
+			Fixes
+			 - [#554](https://github.com/Chisel-Team/Chisel/issues/554) chiseled dirt does not have an effective tool
+			 - Ingot blocks will now work with oredictionary variants
+			 - Fixed all block harvest tools, should fix exploits with obsidian etc
+			 - [#580](https://github.com/Chisel-Team/Chisel/issues/580) Items are no longer voided when shift clicking from the chisel results into a full inventory
+			 - [#439](https://github.com/Chisel-Team/Chisel/issues/439) add "bricksStone" as oredict entry to chiseled stone bricks
+			 - Fix iChisel adding its NBT to non-chisel items when broken
+			 - [#435](https://github.com/Chisel-Team/Chisel/issues/435) Fix target stack being deleted when chisel breaks during in-world chiseling
+			 - [#185](https://github.com/Chisel-Team/Chisel/issues/185) Remove remaining hardcoded strings in iChisel GUI
+			 - [#590](https://github.com/Chisel-Team/Chisel/issues/590) Drastically reduce the amount of logging from IMC messages
+
+	CodeChicken Lib 1.8.+ (went from CodeChicken Lib 1.10.2-2.5.9.283-universal to CodeChicken Lib 1.10.2-2.5.9.320-universal):
+		CodeChicken Lib 1.10.2-2.5.9.320-universal:
+			No changelog provided.
+
+	Compact Machines (went from cm2-2.0.0-b104.jar to cm2-1.10.2-2.0.1-b141.jar):
+		cm2-1.10.2-2.0.1-b141.jar:
+			Minor bugfix for 1.10.2 version.
+
+			Untested, might have other issues.
+
+	CompatLayer (went from compatlayer-1.10-0.2.9.jar to compatlayer-1.10-0.3.0.jar):
+		compatlayer-1.10-0.3.0.jar:
+			0.3.0:
+
+			 * Joseph C. Sible added compats for OC API stuff that renamed from 1.10 to 1.11 
+
+	Cyclops Core (went from CyclopsCore-1.9.4-0.10.9.jar to CyclopsCore-1.9.4-0.10.10.jar):
+		CyclopsCore-1.9.4-0.10.10.jar:
+			As always, don't forget to backup your world before updating!
+
+			Fixes:
+			* Add safety for rendering FluidStacks with null Fluids, Closes #90
+
+	Deep Resonance (went from deepresonance-1.1x-1.4.8.jar to deepresonance-1.1x-1.4.9.jar):
+		deepresonance-1.1x-1.4.9.jar:
+			1.4.9:
+
+			 * Joseph C. Sible fixed compatibility with OC for 1.10 and 1.11 
+			 * Crystal worldgen fix 
+			 * Language files updated 
+
+	Draconic Evolution (went from Draconic Evolution 1.10.2-2.1.6.263-universal to Draconic Evolution 1.10.2-2.1.8.273-universal):
+		Draconic Evolution 1.10.2-2.1.8.273-universal:
+			-Fixed weird name related crash in entity detector config gui.
+		Draconic Evolution 1.10.2-2.1.7.266-universal:
+			-Fixed shield not absorbing fall damage when jump boost is active.
+			-Stopped the magnet taking items from IE belts.
+
+	Engineers Workshop (went from EngineersWorkshop-1.3.6-1.10.2.jar to EngineersWorkshop-1.3.7-1.10.2.jar):
+		EngineersWorkshop-1.3.7-1.10.2.jar:
+			Temporary fixes this issue: [https://github.com/EngineersMods/EngineersWorkshop/issues/33#issuecomment-354861880](https://github.com/EngineersMods/EngineersWorkshop/issues/33#issuecomment-354861880)
+
+	Extra Utilities (went from Extra Utilities 2 - 1.10.2 - 1.6.4 to Extra Utilities 2 - 1.10.2 - 1.7.2):
+		Extra Utilities 2 - 1.10.2 - 1.7.2:
+			- Fix null itemstack crash in 1.10.2
+			- Reduce efficiency loss in generators
+			- Improve overlay to show GP before and after efficiency loss.
+		Extra Utilities 2 - 1.10.2 - 1.7.1:
+			- Tweak some GP loss values
+			- Fix incorrect GP being shown
+			- Fix crash when using other languages
+			- Fix missing localization
+		Extra Utilities 2 - 1.10.2 - 1.7.0:
+			- Add Unstable ingots and an unstable ingot recipe for moon stone.
+			- Add "Progressive efficiency loss" mechanic to GP mills/generators. Mills become less effective when there are many of the same type.
+			- Fix Manual issues
+			- Fix Villager localization issues
+			- Add config option to enable end and nether biomes working in the Quantum Quarry (off by default)
+			- Fix serialization issue with blockstates
+			- Move save file initiation to occur after the server has been started.
+		Extra Utilities 2 - 1.10.2 - 1.6.8:
+			- Reduced internal energy buffer on survival generator
+			- Increase GP cost of higher speed upgrade levels
+			- Fix glass cutter dupe
+		Extra Utilities 2 - 1.10.2 - 1.6.7:
+			- Fix mobs not spawning
+		Extra Utilities 2 - 1.10.2 - 1.6.6:
+			- Fix Enderlily and Red Orchids fps drop
+			- Golden Lasso can no longer pick up 'dead' entities
+			- Fix Shift-clicking not reseting machine progress times
+			- Fix glass cutter recipe not recognizing NBT
+			- Fix duplicating Drums recipe
+			- Creatures can no longer spawn in quantum quarry custom dimension
+		Extra Utilities 2 - 1.10.2 - 1.6.5:
+			- Fix crash with newer 1.12 forge version
+			- Fix missing localisation on creative tab
+
+	Extreme Reactors (went from ExtremeReactors-1.10.2-0.4.5.44.jar to ExtremeReactors-1.10.2-0.4.5.45.jar):
+		ExtremeReactors-1.10.2-0.4.5.45.jar:
+			- Added a couple of reactor moderators if Draconic Evolution is around
+			- Made fluid pipes happy on restart by deceiving them. Close #148
+			- The reactor will now take in the correct amount of fuel, no more dupes thank you. Close #127
+			- Updated Forge to version 12.18.3.2511
+			- Bumped version to 0.4.5.45
+
+	Gendustry (went from Gendustry 1.6.5.31 (MC 1.10.2) to Gendustry 1.6.5.32 (MC 1.10.2)):
+		Gendustry 1.6.5.32 (MC 1.10.2):
+			bdew: Fixed sample info not showing up in some localisations (closes #234)
+
+	Integrated Dynamics (went from IntegratedDynamics-1.10.2-0.7.13.jar to IntegratedDynamics-1.10.2-0.7.14.jar):
+		IntegratedDynamics-1.10.2-0.7.14.jar:
+			As always, don't forget to backup your world before updating!
+			Requires CyclopsCore version 0.10.8 or higher.
+
+			Fixes:
+			* Fix oredict operator not handling wildcard meta values, Closes #288
+
+	Iron Backpacks (went from IronBackpacks-1.10.2-2.2.31.jar to IronBackpacks-1.10.2-2.2.33.jar):
+		IronBackpacks-1.10.2-2.2.33.jar:
+			Version 1.10.2 - 2.2.33:
+
+			Additions
+			- None
+
+			Changes
+			- None
+
+			Bug Fixes
+			- Fix typo in quick deposit upgrade description
+
+			 Look here for all 1.10 versions' changelogs: [https://github.com/gr8pefish/IronBackpacks/blob/master-1.10/changelog.txt](https://github.com/gr8pefish/IronBackpacks/blob/master-1.10/changelog.txt)
+		IronBackpacks-1.10.2-2.2.36.jar:
+			Version 1.10.2 - 2.2.36:
+
+			Additions
+			- None
+
+			Changes
+			- None
+
+			Bug Fixes
+			- None
+
+			 Look here for all 1.10 versions' changelogs: [https://github.com/gr8pefish/IronBackpacks/blob/master-1.10/changelog.txt](https://github.com/gr8pefish/IronBackpacks/blob/master-1.10/changelog.txt)
+
+	JourneyMap (went from journeymap-1.10.2-5.5.0 to journeymap-1.10.2-5.5.2):
+		journeymap-1.10.2-5.5.2:
+			JourneyMap 1.10.2-5.5.2 for Minecraft 1.10.2
+
+			Requirements:
+
+			 * Java 8 
+			 * Minecraft 1.10.2 
+			 * Forge 12.18.3.2316 
+			General Information:
+
+			 * See [http://journeymap.info/](https:/linkout?remoteUrl=http%253a%252f%252fjourneymap.info%252f) for information about how to install and use this mod, rules about inclusion in modpacks, translation, etc. 
+			 * See [http://journeymap.info/Support](https:/linkout?remoteUrl=http%253a%252f%252fjourneymap.info%252fSupport) for information on getting technical support. 
+			 * Implements [JourneyMap API v1.10.2-1.4](https:/linkout?remoteUrl=https%253a%252f%252fbitbucket.org%252fTeamJM%252fjourneymap-api) 
+			CHANGELOG (2017-11-08-19:26:57):
+
+			 * Experimental support for server-side disabling of surface and topographical mapping per dimension. 
+			 * Removed support for ancient Rei's Minimap feature codes sent in a server MOTD 
+			 * Bugfix: Fullscreen Map didn't always update to the player's current map layer when reopened in "Follow" mode 
+			 * Bugfix: Save Map produced FileNotFound exception in 5.5.2b1 
+			 * Bugfix: StackOverflowError when opening Fullscreen Map after changing dimensions 
+			 * Bugfix: Cave/Surface Mapping in the End had multiple problems 
+			 * Bugfix: Glowstone and Sea Lanterns were hidden on maps 
+		journeymap-1.10.2-5.5.1:
+			JourneyMap 1.10.2-5.5.1 for Minecraft 1.10.2
+
+			Requirements:
+
+			 * Java 8 
+			 * Minecraft 1.10.2 
+			 * Forge 12.18.3.2316 
+			General Information:
+
+			 * See [http://journeymap.info/](https:/linkout?remoteUrl=http%253a%252f%252fjourneymap.info%252f) for information about how to install and use this mod, rules about inclusion in modpacks, translation, etc. 
+			 * See [http://journeymap.info/Support](https:/linkout?remoteUrl=http%253a%252f%252fjourneymap.info%252fSupport) for information on getting technical support. 
+			 * Implements [JourneyMap API v1.10.2-1.4](https:/linkout?remoteUrl=https%253a%252f%252fbitbucket.org%252fTeamJM%252fjourneymap-api) 
+			CHANGELOG (2017-10-19-17:11:16):
+
+			 * Bugfix: StackOverflowError when opening Fullscreen Map after changing dimensions 
+			 * Bugfix: Chunkloaded chunks made a guest appearance on the wrong map 
+			 * Bugfix: Toggling Minimap type could produce NullPointerException and hide Minimap 
+
+	LibVulpes (went from LibVulpes-1.10.2-0.2.5-universal.jar to LibVulpes-1.10.2-0.2.6-universal.jar):
+		LibVulpes-1.10.2-0.2.6-universal.jar:
+			bug fixes
+
+			more recipe debugging
+
+	MMD OreSpawn (went from OreSpawn_1.10.2-1.1.0 to OreSpawn 3.2.1.100):
+		OreSpawn 3.2.1.100:
+			#Version 3.1.0:
+			Minor Version number bumped because of major internal changes
+			New Annotation-based plugin system
+			New API for new plugin system
+			Update JSON config format to version 1.1 to allow for new feature
+			Implement BiomeDictionary support
+			Implement Whitelisting and Blacklisting support for Biomes
+			Ensure that resources stored in JAR's can be copied out to the config directory for loading and parsing
+			Add the ability to specify parameters for the default feature generator to the addore command
+
+			#Version 3.0.0:
+			Ported to 1.11.2
+			Complete rewrite of internals for better stability
+			Change of JSON config format (See Wiki for details!)
+			Added ability to specify different types of ore generation
+			Added ability to specify what block gets replaced
+			Able to Import both OreSpawn 1 and OreSpawn 2 format config files
+			Added an operator (permission level 4) command to force-dump current configuration
+		OreSpawn 3.2.0.94:
+			#Version 3.1.0:
+			Minor Version number bumped because of major internal changes
+			New Annotation-based plugin system
+			New API for new plugin system
+			Update JSON config format to version 1.1 to allow for new feature
+			Implement BiomeDictionary support
+			Implement Whitelisting and Blacklisting support for Biomes
+			Ensure that resources stored in JAR's can be copied out to the config directory for loading and parsing
+			Add the ability to specify parameters for the default feature generator to the addore command
+
+			#Version 3.0.0:
+			Ported to 1.11.2
+			Complete rewrite of internals for better stability
+			Change of JSON config format (See Wiki for details!)
+			Added ability to specify different types of ore generation
+			Added ability to specify what block gets replaced
+			Able to Import both OreSpawn 1 and OreSpawn 2 format config files
+			Added an operator (permission level 4) command to force-dump current configuration
+		OreSpawn 2.0.0.15:
+			Updated for latest Forge RB
+		OreSpawn 2.0.0.10:
+			Added /dumpbiomes command to dump a list of biomes
+			Added `/addore &lt;file&gt; &lt;dimension|all&gt;` to help generate config files.
+			Removed the Orespawn 1.x JSON importer, it was broken for biomes other than the overworld
+		OreSpawn 2.0.0.9:
+			Known issues:
+			Orespawn 2.x is currently known to have issues importing from orespawn 1.x configs when dimensions are involved,
+			This has been known for ores which usually spawn in the end or nether spawning in the overworld.
+			If this is a problem for you, use Orespawn 1.x for now.
+		OreSpawn 2.0.0.5:
+			Known issues:
+			Orespawn 2.x is currently known to have issues importing from orespawn 1.x configs when dimensions are involved,
+			This has been known for ores which usually spawn in the end or nether spawning in the overworld.
+			If this is a problem for you, use Orespawn 1.x for now.
+		OreSpawn 2.0.0.4:
+			Known issues:
+			Orespawn 2.x is currently known to have issues importing from orespawn 1.x configs when dimensions are involved,
+			This has been known for ores which usually spawn in the end or nether spawning in the overworld.
+			If this is a problem for you, use Orespawn 1.x for now.
+		OreSpawn 2.0.0.3:
+			Known issues:
+			Orespawn 2.x is currently known to have issues importing from orespawn 1.x configs when dimensions are involved,
+			This has been known for ores which usually spawn in the end or nether spawning in the overworld.
+			If this is a problem for you, use Orespawn 1.x for now.
+		OreSpawn 2.0.0.2:
+			Known issues:
+			Orespawn 2.x is currently known to have issues importing from orespawn 1.x configs when dimensions are involved,
+			This has been known for ores which usually spawn in the end or nether spawning in the overworld.
+			If this is a problem for you, use Orespawn 1.x for now.
+		OreSpawn 2.0.0.1:
+			Known issues:
+			Orespawn 2.x is currently known to have issues importing from orespawn 1.x configs when dimensions are involved,
+			This has been known for ores which usually spawn in the end or nether spawning in the overworld.
+			If this is a problem for you, use Orespawn 1.x for now.
+
+	McJtyLib (went from mcjtylib-1.1x-2.4.3.jar to mcjtylib-1.1x-2.5.1.jar):
+		mcjtylib-1.1x-2.5.1.jar:
+			2.5.1:
+
+			 * Joseph C. Sible fixed compatibility with OC for both 1.10 and 1.11 
+		mcjtylib-1.1x-2.5.0.jar:
+			2.5.0:
+
+			 * Fixed a potential security issue 
+			 * Note! This version is *not* compatible RFTools 7.13 or older and RFTools Control 1.6.8 or older 
+		mcjtylib-1.1x-2.4.5.jar:
+			2.4.5:
+
+			 * Philipp Rustemeier fixed an issue with multitooltips for all guis using McJtyLib 
+			 * Slightly more efficient network handling for sending over BlockPos instances for all mods using McJtyLib 
+
+	Minefactory Reloaded (went from MineFactoryReloaded-[1.10.2]2.9.0B1-229.jar to MineFactoryReloaded-[1.10.2]2.9.0B1-230.jar):
+		MineFactoryReloaded-[1.10.2]2.9.0B1-230.jar:
+			No changelog provided.
+
+	Modular Powersuits (went from ModularPowersuits-1.10.2-1.2.126.jar to ModularPowersuits-1.10.2-FINAL-3?):
+		ModularPowersuits-1.10.2-FINAL-3?:
+			-Fixed wrong reference in TinkerTable block that could cause a crash.
+
+			-Restored compatibility with RenderPlayerAPI. 
+		ModularPowersuits-1.10.2-Final2:
+			Really fixed autofeeder
+
+			Cleaned up powerfist and Lux Capacitor Model code. 
+		ModularPowersuits-1.10.2-Final:
+			 * Recipe sync now works for all multiplayer games. 
+			 * Fixed Binoculars and FOV fix both being broken. 
+			 * Fixed some config options not showing up in config file. 
+			 * Fixed autofeeder saturation code. 
+
+	Natura (went from natura-1.10.2-4.1.0.80.jar to natura-1.10.2-4.1.0.82.jar):
+		natura-1.10.2-4.1.0.82.jar:
+			New:
+
+			 * Crops will now fire forge's growth events. 
+			Bugfixes:
+
+			 * Redwood Saplings should now be replaced when the tree grows. 
+
+	NuclearCraft (went from NuclearCraft-2.5a--1.10.2 to NuclearCraft-2.7a--1.10.2):
+		NuclearCraft-2.7a--1.10.2:
+			This is almost certainly the final major version for 1.10.2.
+
+			* Fixed errors with the active cooling rate configs
+			* Fixed internal energy storages changing incorrectly when their capacity is altered
+		NuclearCraft-2.7--1.10.2:
+			This is almost certainly the final major version for 1.10.2.
+
+			* Properly fixed all cable/pipe/conduit disconnection bugs [thanks to Thutmose for all of the help!]
+			* Fixed CraftTweaker strangely deleting recipes
+			* Slightly nerfed Decay Generator
+			* Fixed Cobblestone Generator not working
+			* Added and tweaked a few recipes
+		NuclearCraft-2.6--1.10.2:
+			+ Added early-game Decay Generator
+
+			* Fission Controller's energy and heat buffer now scales with reactor size
+			* Fixed certain Fuel Rods having the wrong stats [thanks to 28Smiles!]
+			* Fixed crash on Fission Reactor overheating [thanks to dizzyd!]
+			* Fixed Coolers not recognising Ports/Buffers/etc. as a form of Reactor Casing
+
+			* Fusion Reactor generates and removes Fusion Plasma a little more intelligently
+			* Fusion Plasma will now cause explosions intead of corrosion
+			* Made Fusion Plasma less laggy in general
+			* Fixed Fusion Core dropping unwanted dummy blocks
+
+			* Fixed (hopefully) Collectors crashing if multiple variants of Helium/Nitrogen exist
+
+			* Fixed some blocks breaking instantly
+			* Fixed Reactor Door not dropping after being broken
+
+			* Spruced up GUIs a little bit more
+			* Fixed bug where game sometimes crashed when attempting to open GUIs
+
+			+ Added more config options for ores
+			* Fixed vanilla ores still dropping NC resources when broken with Silk Touch
+
+			* CraftTweaker now works again [thanks to TheGuyRunningSouth!]
+			* Removed active machines and other junk from JEI
+			* Added and tweaked a few recipes
+
+			* Machines can no longer be rotated (temporary fix for machines losing contents when rotated)
+			* Processors can now be set to use no power in the config - this is done for the Ingot Former by default
+
+			* Fixed some mods' cables/conduits disconnecting from machines (temporary fix - machine textures won't update)
+			* Fixed IC2 Energy Net console spam [thanks to fscan!]
+
+			* Fixed getCapability returning null
+
+			* Updated Forge and APIs
+
+			* Possible other things that I have forgotten
+			- Removed Paulobrine and Herobrian
+
+	OpenComputers (went from OpenComputers-MC1.10.2-1.7.0.124.jar to OpenComputers-MC1.10.2-1.7.1.150.jar):
+		OpenComputers-MC1.10.2-1.7.1.150.jar:
+			New Features/Support/Fixes
+
+			 * Changed: Diamond Chip recipe 
+			 * You now require cutting wire to cut the diamond. 
+			 * Added: ExtraCells and Mekanism integration (DrummerMC) [1.10.2] 
+			 * Fixed: IC2-Classic mod incompatibility 
+			 * Added: Allow getting yaw of player through tablet component (ChristoCoder) 
+			 * Fixed: Microcontroller interactions with EnderIO item conduits 
+			 * Added: Maximum packet parts to device info of modems (Linked and Network Cards) 
+			 * Fixed: Drones now properly work with chunkloader upgrades (TheCodex6824) 
+			 * Fixed: Tablets not turning off their screen properly (AmandaCameron) 
+			 * Fixed: Motion Sensor line of sight 
+			 *  Misc: Updated various translations 
+			 * Russian (S0ZDATEL, Fingercomp, makkarpov) 
+			 * Traditional Chinese (mymagadsl) 
+			 * German (Nex4rius) 
+			OpenOS fixes/improvements
+
+			 * Fixed: Issues with booting OpenOS on very slow servers 
+			 * Added: Allow custom error objects to print to stderr 
+			 * Added: Allow mount points to use existing directories 
+			 * Added: Bind mounts to mount a directory as another directory 
+			 * Fixed: Allow .shrc to use tty stdin 
+			 * Added: Lua REPL input is now parsed with an implicit return (SquidDev) 
+			 * Adding a = in front of the code to explicitly add it still works. 
+			 * Changed: Shell history no longer adds items if they are duplicates (SquidDev) 
+			 * Fixed: CTCP messages in IRC client (Michiyo, skyem123) 
+			 * Fixed: Reverse lookup of keys in Keyboard API 
+			 * Fixed: event.cancel and event.ignore 
+			 * Fixed: Protect lua shell from serialization OOM failure 
+			 * Fixed: Too long without yielding error in /bin/tree (LeshaInc) 
+			 * Misc: Improvements to the vt100 library 
+			 * Misc: Various minor improvements to reduce memory usage 
+			List of contributors
+
+			payonel, Vexatos,
+			 S0ZDATEL, Fingercomp, makkarpov,
+			 mymagadsl, Nex4rius, ChristoCoder,
+			 DrummerMC, LeshaInc, SquidDev, Michiyo,
+			 josephcsible, skyem123, TheCodex6824,
+			 AmandaCameron, Pwootage
+
+	Ore Excavation (went from OreExcavation-1.2.102.jar to OreExcavation-1.2.107.jar):
+		OreExcavation-1.2.107.jar:
+			Fixed in game config changes not applying
+
+			Minor performance tweaks to scheduler
+
+			Pending excavations now cycle priority
+
+	OreExcavation Integration (went from OreExcavationIntegration-1.10.2_2.0.jar to oeintegration-2.3.jar):
+		oeintegration-2.3.jar:
+			- Fixed dependency on OEI for 1.10
+
+	RFTools (went from rftools-1.1x-7.11.jar to rftools-1.1x-7.16.jar):
+		rftools-1.1x-7.16.jar:
+			7.16:
+
+			 * Joseph C. Sible fixed compatibility with OC for 1.10 and 1.11 
+			 * Requires McJtyLib 2.5.1 
+			 * Requires CompatLayer 0.3.0 
+		rftools-1.1x-7.15.jar:
+			7.15:
+
+			 * This fixes the nether and end variants of dimensional shard ore dropping as the overworld variant when silk touched (by Joseph C. Sible) 
+			 * Joseph C. Sible also made some fixes to the OC integration on 1.10 
+			 * Updates to the XNet API! This version is only compatible with XNet 1.5.0! 
+		rftools-1.1x-7.14.jar:
+			7.14:
+
+			 * Due to security issues this version requires McJtyLib 2.5.0! 
+			 * 
+			Fixed a problem with the mode button (copy, swap, move, ...) in the Builder not working/being remembered
+
+			 * 
+			Fixed a problem where powercells could input more RF/t then advertized
+
+			 * Joseph. C. Sible reimplemented the computer screen module 
+		rftools-1.1x-7.13.jar:
+			7.13:
+
+			 * Small bugfix with reading of the config value for the Builder 
+		rftools-1.1x-7.12.jar:
+			7.12:
+
+			 * CRITICAL: Saving and loading of scan files is now restricted so that they can only save in the 'rftoolsscan' directory. This is to prevent abuse and corruption of server side files 
+			 * New option in the GUI of the Builder so that it does not wait if an operation is not possible (because there is no room in the output tank or chest or if a block is missing) 
+			 * New option in the GUI of the Builder to hilight the current block it is working on 
+			 * 
+			Better hud error reporting for the builder. The Builder will now show what is wrong and why it is not doing anything in the HUD
+
+	RFTools Control (went from rftoolsctrl-1.1x-1.6.8.jar to rftoolsctrl-1.1x-1.7.0.jar):
+		rftoolsctrl-1.1x-1.7.0.jar:
+			1.7.0:
+
+			 * 
+			Fixed a problem with crafting station ignoring item equality if NBT was present
+
+			 * 
+			Another similar fix for the processor
+
+			 * 
+			In crafting cards you can now specify 'strict NBT' matching so that opcodes like get_ingredients and get_ingredients_smart can check this flag to also allow matching on NBT
+		rftoolsctrl-1.1x-1.6.9.jar:
+			1.6.9:
+
+			 * Due to security issues this version requires McJtyLib 2.5.0! 
+
+	Railcraft (went from Railcraft 10.2.0 - MC 1.10.2 to Railcraft 10.3.1 - MC 1.10.2):
+		Railcraft 10.3.1 - MC 1.10.2:
+			 * FIX: Fix cart spawning due to obfuscation error, oops. 
+		Railcraft 10.3.0 - MC 1.10.2:
+			 * INFO: Merry Christmas! 
+			 * NEW: Added Snow to carts! 
+			 * NEW: Added Crowbar of Seasons, used to switch carts to Christmas or Halloween mode, found in Workshops or in Gift and Pumpkin Carts. 
+			 * NEW: Restored Creosote and Steam blocks. (contribution by liach) 
+			 * NEW: Added Creosote potion effect that harms spiders when thrown. (contribution by liach) 
+			 * CHANGE: "NeedsRefuel" routing condition now looks at the entire train and considers Worldspike Carts as well. 
+
+	ReAuth (went from ReAuth-3.5.0 1.9/1.10 to ReAuth-3.5.2 1.9/1.10):
+		ReAuth-3.5.2 1.9/1.10:
+			Enabled repeatEvents in the LoginGUI - you can now hold down your keys
+
+			Added caching for the session-validity (when spamming refresh you previously trigger spamprotection on mojangs server) - to bypass the 5 minute cache: hold shift while pressing the refreshbutton
+
+			Changed Signature Fingerprint (my certificate had expired - again)
+
+	Shadowfacts' Forgelin (went from Forgelin-1.5.1.jar to Forgelin-1.6.0.jar):
+		Forgelin-1.6.0.jar:
+			 * Update to Kotlin 1.2.0 
+
+	The One Probe (went from theoneprobe-1.1x-1.4.18.jar to theoneprobe-1.1x-1.4.19.jar):
+		theoneprobe-1.1x-1.4.19.jar:
+			1.4.19:
+
+			 * Option to show silverfish (from ChristoCoder) 
+			 * 
+			DefaultProbeInfoProvider shows what mobs spawner spawns (from Artemish)
+
+			 * 
+			Show tameable status, time to adulthood (Artemish)
+
+			 * 
+			Added mob armor visual to the HUD (Artemish)
+
+	Tinker I/O (went from tinker_io-1.10.2-release 2.4.4a to tinker_io-1.10.2-release 2.4.4b):
+		tinker_io-1.10.2-release 2.4.4b:
+			 * Reslove Issue [#50](https://github.com/gkbm2013/tinker-IO/issues/50). (By [GemOfEvan](https://github.com/GemOfEvan) in Pull Request [#59](https://github.com/gkbm2013/tinker-IO/pull/59)) 
+
+	Wireless Crafting Terminal (went from WirelessCraftingTerminal-1.10.2-2.1.36.jar to WirelessCraftingTerminal-1.10.2-2.1.41.jar):
+		WirelessCraftingTerminal-1.10.2-2.1.41.jar:
+			Fixed [#224](https://github.com/p455w0rd/WirelessCraftingTerminal/issues/224)
+		WirelessCraftingTerminal-1.10.2-2.1.39.jar:
+			Fixed ([#162](https://github.com/p455w0rd/WirelessCraftingTerminal/issues/162))
+
+			Recoded API..will be functional without main mod now
+		WirelessCraftingTerminal-1.10.2-2.1.38.jar:
+			Fixed GUI issues ([#195](https://github.com/p455w0rd/WirelessCraftingTerminal/issues/195))
+		WirelessCraftingTerminal-1.10.2-2.1.37.jar:
+			Updated API for ExtraCells 2
+
+	XNet (went from xnet-1.4.0.jar to xnet-1.5.0.jar):
+		xnet-1.5.0.jar:
+			1.5.0:
+
+			 * Fixed a problem where it was impossible for a logic channel to use 5 tick speed with an advanced connector. This fix will cause all existing logic channels to double in speed. Fix this if that's important for you! 
+			 * More robust handling of 'advanced' connectors. This way the upgrade item actually works properly 
+			 * Fixed a bad item destruction/duplication bug in some circumstances (when using limit on output in item channel) 
+			 * This version changes the API and if you upgrade to it you'll also have to upgrade RFTools to 7.15! 
+		xnet-1.4.1.jar:
+			1.4.1:
+
+			 * Added some null protection that could be needed when something is trying to move the xnet cables 
+			 * 
+			Hilight cables if you are holding a facade/cable even if they are not hidden by a facade. Only while sneaking (can be disabled in config)
+
+			 * thraaawn added api method to get a list of all connected blocks 
+			 * 
+			Fixed a null pointer exception with facade blocks in certain situations
+
+			 * 
+			XNet supports pistons directly now
+
+* Generated using https://github.com/TheRandomLabs/ChangelogGenerator
