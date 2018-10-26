@@ -1,0 +1,158 @@
+All the Mods v4.0 to All the Mods v4.1
+
+Updated:
+	AbyssalCraft (went from AbyssalCraft-1.10.2-1.9.4.3.jar to AbyssalCraft-1.10.2-1.9.4.4.jar):
+		AbyssalCraft-1.10.2-1.9.4.4.jar:
+			 * Fixed some redundancy in the FireMessage packet that's sent when hitting any of the mods fire blocks
+			 * Ritual ground creation is now less sensitive about surrounding blocks (as long as they aren't full cubes)
+			 * Spell recipes can now be displayed in the Necronomicon
+			 * The tooltip of Energy Relays now display the range of the block
+			 * Item information can now be locked, resulting in the tooltip font being replaced by the Aklo Font
+			 * Added a command to automatically unlock all Necronomicon knowledge
+			 * Leaving Omothol portals now return you to the Dreadlands, not the Abyssal Wasteland
+			 * Randomized the texture rotation of the Fused Abyssal Sand
+			 * Made the outlines of the Abyssal Stone Brick, Abyssalnite Stone Brick and Dreadstone Brick more consistent
+			 * Created a new texture for Dreadstone
+			 * Shift-clicking output slots now works in the Materializer (giving you up to a stack of the output per click)
+
+	AppleCore (went from AppleCore-mc1.10.2-3.1.0.jar to AppleCore-mc1.10.2-3.1.1.jar):
+		AppleCore-mc1.10.2-3.1.1.jar:
+			Add Polish translation ([#112](https://github.com/squeek502/AppleCore/pull/112), thanks [@Greg-21](https://github.com/greg-21))
+
+	Chisels & Bits (went from chiselsandbits-12.16.jar to chiselsandbits-12.17.jar):
+		chiselsandbits-12.17.jar:
+			 * On server always return false for block rendering. (#352)
+			 * new method in API, getParameter to retrieves runtime values. (#350)
+			 * Some Minor grammar tweaks.
+			 * Fix a crash when using incorrect logic to determine Item Names. (#367)
+
+	CompatLayer (went from compatlayer-1.10-0.3.0.jar to compatlayer-1.10-0.3.1.jar):
+		compatlayer-1.10-0.3.1.jar:
+			 * Update to fix the difference between EnderIO on 1.10 and EnderIO on 1.11
+
+	Extra Utilities (went from Extra Utilities 2 - 1.10.2 - 1.7.2 to Extra Utilities 2 - 1.10.2 - 1.7.4):
+		Extra Utilities 2 - 1.10.2 - 1.7.4:
+			- Extra Utilities 2 is now visible source.
+			- Fix NPE in transfer node capability handler.
+			- Fix resonator dupe bug.
+			- Fix missing localization.
+		Extra Utilities 2 - 1.10.2 - 1.7.3:
+			- Add Transfer Node (Energy) that can transfer up to 10,000 RF/Tick
+			- Buff Magic Wood to break much less often
+			- Mining upgrade no longer requires GP
+
+	Extreme Reactors (went from ExtremeReactors-1.10.2-0.4.5.45.jar to ExtremeReactors-1.10.2-0.4.5.46.jar):
+		ExtremeReactors-1.10.2-0.4.5.46.jar:
+			Temporary fix for OpenComputers interface slowness. Close #152 -- YOU MUST BREAK AND REPLACE YOUR COMPUTER PORTS --
+			Removed duplicated registration of blockManyullyn turbine's coils
+			Updated OpenComputers API to version MC1.10.2-1.7.1.150
+			Bumped version to 0.4.5.46
+
+	MMD OreSpawn (went from OreSpawn 3.2.1.100 to OreSpawn 3.2.2.104):
+		OreSpawn 3.2.2.104:
+			Version 3.2.2
+
+			If using Basemetals 2.4.0, you'll have to manually add the jsons for it to do worldgen.
+			(See the github repo)
+
+	McJtyLib (went from mcjtylib-1.1x-2.5.1.jar to mcjtylib-1.1x-2.5.3.jar):
+		mcjtylib-1.1x-2.5.3.jar:
+			 * McJtyLib is a mod now (not only a library)
+			 * Fix for EnderIO 1.10/1.11 compatibility. Requires CompatLayer 0.3.1
+		mcjtylib-1.1x-2.5.2.jar:
+			 * Right-click to reverse through choices
+			 * Fix IRedstoneConnectable for compatibility with EnderIO on 1.11
+
+	Mystical Agriculture (went from mysticalagriculture-1.10.2-1.5.9.jar to mysticalagriculture-1.10.2-1.5.10.jar):
+		mysticalagriculture-1.10.2-1.5.10.jar:
+			Release 1.5.10 for MC 1.10.2
+
+			Changes:
+
+			 * Added Thaumcraft crops: Quicksilver, Thaumium, Void Metal
+			 * Added checks for Thaumcraft to Amber and Brass crops
+			 * Fixed Uranium 238 seeds
+			 * Fixed armors setting the player to the wrong step height when removed
+
+	NuclearCraft (went from NuclearCraft-2.7a--1.10.2 to NuclearCraft-2.7b--1.10.2):
+		NuclearCraft-2.7b--1.10.2:
+			Fixes some major bugs including the Nuclear Furnace GUI crash and and Fission Reactor energy transfer rate not changing.
+
+	Ore Excavation (went from OreExcavation-1.2.107.jar to OreExcavation-1.2.114.jar):
+		OreExcavation-1.2.114.jar:
+			Fixed new facing code throwing errors server side
+		OreExcavation-1.2.111.jar:
+			Added option to shape mine using side hit (configurable client side)
+
+			Fixed internal east west math being backwards
+
+	Tech Reborn (went from TechReborn-1.10.2-2.1.18.235-universal.jar to TechReborn-1.10.2-2.1.19.240-universal.jar):
+		TechReborn-1.10.2-2.1.19.240-universal.jar:
+			(drcrazy) Fixed fusion reactor issues. Closes #1416. #releaseBuild
+			(drcrazy) Check for inventory update during crafting in reactor
+			(drcrazy) Removed unsued import
+			(drcrazy) Backport of 0ae99ebae8b6b30e25db859e1b8c0416b60ce95d to 1.10.2
+			(drcrazy) Back-ported fix for cloaking device done for #1314
+			(github) Bump version, #releaseBuild
+			(github) Merge pull request #1290 from mracsys/1.10.2-backport
+			(mracsys) Backport commit 08c2f89 to 1.10.2
+
+	Thaumcraft (went from Thaumcraft-1.10.2-6.0.BETA2.jar to Thaumcraft-1.10.2-6.0.BETA5.jar):
+		Thaumcraft-1.10.2-6.0.BETA5.jar:
+			6.0.BETA5
+			- The full, not fractional amount of observations, theories and epiphanies are now spent when completing research. Oops.
+			- golems now operate within 32 blocks instead of 16.
+			- provider seals no longer require golems to be especially smart to listen to them, but they still require biothaumic mind research
+			- fixed focus crash in NEI
+			- fixed wrong import causing crash during focus creation for those without the correct java library
+			- fixed "phantom" taint seed issue
+			- fixed crash when placing arcane bore
+			- research entries requiring enchantments are now a lot less picky
+			- loads of other small tweaks and bugfixes
+		Thaumcraft-1.10.2-6.0.BETA4.jar:
+			6.0.BETA4
+			- workbench charger can now be placed on a focal manipulator as well
+			- changed the way and exact point when vis consumption is calculated for foci. Vis should no longer be consumed if an effect does not trigger.
+			- added 'Burst'focus modifier
+			- added 'Plan' focus medium
+			- added 'Quicken'focus medium
+			- completely overhauled the way foci effect links are created and managed behind the scenes. Much more interesting combos are now possible. Chaining+Bursting+Scattering Fireballs anyone?
+			- API: Caster focus API has undergone massive changes, but it should be a lot easier to create focus effects now. Much of the grunt work is handled by the casting engine behind the scenes instead of having to be coded per effect.
+			- increased focus effect damage across the board to be more inline with vanilla damage numbers
+			- break focus will no longer break unbreakable blocks clientside
+			- 'break' focus effect now takes block hardness into account and will take longer to break harder blocks. Potency increases the breaking speed.
+			- fixed shardFire oredictionary entry to actually refer to fire crystals and not air crystals
+			- theorycrafting research entry now has two stages as intended.
+			- added a 'scrap theory' button to research table if you want to start from scratch
+			- fixed a few theorycraft cards that could give infinite draws or progress
+			- rebalanced theorycraft cards with item costs so they offer greater rewards
+			- jars can now be filled all the way from alembics
+			- arcane ear (toggle) should now be craftable
+			- fixed various broken research entries
+			- fixed researches requiring thaumium to be unlocked
+			- improved the range of the touch focus
+			- sword of the zephyr once again has the winds effect
+			- improved taint fibre hitboxes
+			- fixed taint fibres having a 50% chance to spread even if no flux was present in aura
+			- all types of taint growth now costs a tiny amount of flux to occur.
+			- taint seeds will now take damage if no flux is present
+			- rebalanced the way aura and flux spreads between chunks. The math was a bit off and could force too much vis into a chunk which in turn caused flux.
+			- added functionality that will automatically throttle the number of particles thaumcraft generates when fps drops below 30
+		Thaumcraft-1.10.2-6.0.BETA3.jar:
+			6.0.BETA3
+			- fixed a major bug that was causing certain items (usually vis crystals) to have their stack size set to 1 the first time their aspect values where calculated.
+			- fixed gauntlet moddel clipping issues
+			- wand hud element should no longer be upside down if shown on the bottom of the screen
+			- fixed research page formatting so that elements like line breaks, page breaks, etc. are properly rendered on all machines. For lots of people it was just displaying walls of unformatted text.
+			- removed a few possible infinite loops causing research to freeze and eventually crash the client
+			- fixed occasional text overlap on knowledge types research entry
+			- fix for boss health bars not displaying during fight and only appearing after death
+			- fix vis discount items in the newer bauble slots not being counted
+			- essentia in crucibles will now keep slowly dissolving if no heat is applied
+			- fixed custom armor model rotation points
+			- fixed arcane ear note display and added another version of the arcane ear that toggles on / off instead of sending a pulse
+			- removing a focus with sneak+f while wearing a focus pouch in your belt slot will now properly update the pouch contents clientside
+			- fixed flux research entry so you can progress to stage two
+			- fixed exchange focus localization and spam casting that occurred when you selected a block
+
+* Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.11.1)

@@ -1,0 +1,191 @@
+All the Mods v4.1 to All the Mods v4.2
+
+Added:
+	- FoamFix for Minecraft
+
+Updated:
+	AbyssalCraft (went from AbyssalCraft-1.10.2-1.9.4.4.jar to AbyssalCraft-1.10.2-1.9.4.5.jar):
+		AbyssalCraft-1.10.2-1.9.4.5.jar:
+			 * Applying a redstone signal to an Energy Relay pauses it
+			 * The Overworld biomes are always registered now, just not added to the list of biomes to generate if set not to
+			 * Statues can now transfer PE to dropped items (provided they can accept PE)
+			 * Redrafted a bunch of text inside the Necronomicon (removing redundant/incorrect information and adding new information)
+			 * Replaced all mob pictures in the Necronomicon with ones that look more like something drawn in the book
+			 * Fixed an infinite loop in the mining spell when mining upwards
+			 * Added a small section that explains how to obtain knowledge, unlocking information in the Necronomicon and unmasks Items and Blocks
+			 * Reduced the duration of fire applied to attackers when attacking someone wearing Dreaded Abyssalnite gear
+			 * The Coralium Plague and Dread Plague now act more like actual plagues (they spread a lot easier, can't be cured with milk)
+			 * Abyssalnite Golems now turn into Dreaded Abyssalnite Golems if killed by the Dread Plague
+			 * Portals now have a small chance of spawning a mob from their dimension
+			 * Shadow mobs now change their transparency based on light level (bright = visible, dark = not so visible)
+			 * The Dreadlands can leak out of it's portals, so keep a lookout in case too much gets out
+			 * Added Antidotes for the Coralium and Dread Plague (used to cure them instead of milk, which no longer cures them)
+			 * Increased the amount of Coralium Ore that generates in the Overworld (also made it configurable)
+			 * Knowledge unlock syncing is now done on a per unlock basis, rather than when opening the Necronomicon or changing dimensions
+			 * Asorah and Spectral Dragons now have the undead creature attribute
+
+	Chisel (went from Chisel - MC1.10.2-0.1.1.39 to Chisel - MC1.10.2-0.2.0.43):
+		Chisel - MC1.10.2-0.2.0.43:
+			 - Add recipe for Auto Chisel
+		Chisel - MC1.10.2-0.2.0.42:
+			Chisel MC1.10.2-0.2.0.42
+			New
+
+			 - The Auto Chisel has made its glorious return! It can now accept FE (Forge Energy) to increase its speed, but will run without any power. No more upgrades!
+			 - Added JEI descriptions for chisels
+			 - [#645](https://github.com/Chisel-Team/Chisel/issues/645) Optimized all of our textures, for a sweet 75% decrease in jar size
+
+	Chisels & Bits (went from chiselsandbits-12.17.jar to chiselsandbits-12.18.jar):
+		chiselsandbits-12.18.jar:
+			 * Fix a CME Crash when rendering.
+
+	Extra Utilities (went from Extra Utilities 2 - 1.10.2 - 1.7.4 to Extra Utilities 2 - 1.10.2 - 1.7.5):
+		Extra Utilities 2 - 1.10.2 - 1.7.5:
+			- Fix filters not being dropped when transfer filters were broken
+			- Fix radar key incorrectly deleting NBT data
+			- Fix CME in QuantumQuarry
+
+	Extreme Reactors (went from ExtremeReactors-1.10.2-0.4.5.46.jar to ExtremeReactors-1.10.2-0.4.5.48.jar):
+		ExtremeReactors-1.10.2-0.4.5.48.jar:
+			- Rewritten (and expanded) the Computer API to make it thread safe. Close #153. Plese see [https://github.com/ZeroNoRyouki/BigReactors/issues/162](https://github.com/ZeroNoRyouki/BigReactors/issues/162) for details
+			- The minimum supported version of OpenComputers is now MC1.10.2-1.7.1.150
+			- Optimized fuel updates and fuel rods rendering. Your FPS should be better when looking at huge Reactors
+			- Fixed crash with the Vanilla profiler. Close #158
+			- Fixed some recipes that didn't show up in game. Close #151 (and, again, #118)
+
+			- Added oreAnglesite and oreBenitoite to the Ore Dictionary. Close #156
+			- Updated Zero CORE to version 0.1.2.0
+			- Bumped version to 0.4.5.48
+
+	OpenComputers (went from OpenComputers-MC1.10.2-1.7.1.150.jar to OpenComputers-MC1.10.2-1.7.2.170.jar):
+		OpenComputers-MC1.10.2-1.7.2.170.jar:
+			New Features/Support
+
+			 * Added: Sheep Power (and ocelot power)
+			 * Carpeted Capacitors exist now. They work and connect just like normal capacitors and form blocks with them.
+			 * Carpeted Capacitors generate power when sheep or ocelots walk on them.
+			 * Power is generated when at least 2 of a type of animal are present. A single sheep and a single ocelot generate no power.
+			 * Ocelots are notorious for their tendency to summon electrostatic fields from the feline dimension. They generate more power than sheep do.
+			 * Yes, this means you can now use OC without any energy-producing mod again without having to change the config.
+			 * Insert interesting reference mentioning electric sheep here
+			 * Changed: Lua 5.3 is now the default architecture for newly crafted CPUs
+			 * CPUs that were crafted prior to this update will continue running whichever architecture they were set to, or Lua 5.2
+			 *  Added: Tier 1 Wireless Network Card (TheCodex6824)
+			 * Can only have one open port at a time
+			 * Has a signal strength of 16 blocks
+			 * The already existing wireless network card is now the Tier 2 card, has not been changed in any other way.
+			 *  Added: Creative Component Bus (Xyxen)
+			 * Allows servers to support up to 1024 components
+			 *  Added: You can now change the name of a robot using another computer.
+			 * Added setName and getName to robots.
+			 * Computers connected to the robot can access the robot as a component to call these functions.
+			 * The Robot must be shut down for this to work
+			 * Fixed: Certain characters and glyph width in screen rendering
+			 * Fixed: Blocks with inventories failing to save under certain circumstances
+			 * Fixed: Drones with chunkloader upgrades not always properly loading chunks (TheCodex6824)
+			 *  Fixed: AppliedEnergistics 2 integration
+			 * Certain filters for getItemsInNetwork() not working
+			 * getCpus() not returning the correct number
+			 * exportIntoSlot() not working
+			 * Added isCraftable to gathered item data
+			 * Fixed: computer.addUser not erroring properly
+			 * Fixed: Made cable collision box closer to cable shape (SquidDev)
+			 * Fixed: Crafting Upgrade not always crafting what it should be crafting
+			 * Fixed: Crafting Upgrade making items uncraftable
+			 * Fixed: Motion Sensor still not working properly
+			 * Fixed: Robots interacting with items that directly modify their inventory (like IC2 fluid cells)
+			 * Fixed: Potential memory leak in networking code
+			 * Fixed: getMetadata on the Debug Card on Minecraft 1.10 and above (BrisingrAerowing)
+			 * Added: getBlockState for the Debug Card on Minecraft 1.10 and above (BrisingrAerowing)
+			 * Fixed: Crafting a robot or drone with an EEPROM not working on Minecraft 1.12
+			 * Fixed: getAllStacks() on the Inventory Controller Upgrade and Transposer has been backported to Minecraft 1.7.10.
+			 * Misc: Updated French translation (Naheulf)
+			OpenOS fixes/improvements
+
+			 * Fixed: install.lua now should work more like one would expect
+			 * Changed: uuid.lua is now generating valid RFC4122 version 4 UUIDs (jobe1986)
+			 * Fixed: Various fixes to vt100 support
+			 * Fixed: Memory leak in process loading
+			 * Fixed: Made modifier keypresses more specific in /bin/edit
+			List of contributors
+
+			payonel, Vexatos,
+			 Xyxen, TheCodex6824, SquidDev,
+			 BrisingrAerowing, jobe1986,
+			 Naheulf, SDPhantom,
+			 Zerotiger, anar4732
+
+	Practical Logistics 2 (went from PracticalLogistics2-1.10.2-2.0.2 to PracticalLogistics2-1.10.2-2.0.3):
+		PracticalLogistics2-1.10.2-2.0.3:
+			This version of PL2 enables compatibility with the latest Sonar Core but no changes have been made to PL2.
+
+			I am currently working on a port/rewrite to 1.12.2 which will probably be renamed PL3.
+
+			Once this new version is complete it may be moved to 1.10.2, but for now you can consider PL2 1.10.2 dead.
+
+	Sonar Core (went from Sonar-Core-1.10.2-3.3.0 to Sonar-Core-1.10.2-3.3.1):
+		Sonar-Core-1.10.2-3.3.1:
+			This is a back-port from the 1.12.2 Version of Sonar Core.
+			Here is a list of all changes backported, some of which may not be relevant.
+
+			Changes
+			- Removed IC2 api.
+			- Increased Inventory Handling efficiency.
+			- Uniformed Sonar Core block registering.
+
+			Fixes
+			- Fixes crash exporting items from machines.
+			- Fixes AE2 Crash on load.
+			- Fixes "IllegalReferenceCountException" crashes/lag relating to Packets on servers.
+			- Fixes crashes when charging energy items in Mekanism Energy Cubes and other blocks
+			- Fixes machines losing their NBT Tags when rotated.
+			- Fixes to AE2 Compatibility with Fluids and Inventories.
+			- Fixes massive lag with Storage Chambers and Reinforced Chests
+			- Fixes Stable Stone not sharing the blast resistance of reinforced stone.
+			- Fixes Energy Transfer Issues for Flux Networks.
+			- Sonar Core mods will now transfer/connect to Immersive Engineering connectors properly.
+			- Fixed AbstractMethodError on inventory transferring.
+
+	Thaumcraft (went from Thaumcraft-1.10.2-6.0.BETA5.jar to Thaumcraft-1.10.2-6.0.BETA7.jar):
+		Thaumcraft-1.10.2-6.0.BETA7.jar:
+			6.0.BETA7
+			- API: removed crystal shard ore dictionary entries for now. Turns out forge oredict doesn't account for nbt data.
+			- dioptra can now be toggled between showing vis and flux and improved the comparator output as well. I forgot to add this to the beta 6 patch notes when it was actually changed
+			- added potion sprayer
+			- rebalanced focus medium vis values slightly
+			- fixed focus bolt fx
+			- re-added the quicken focus mod which mysteriously dissapeared from my code at some point
+			- chain focus mod and arcing enchantment will no longer target things you are riding or players and creatures on your team or that you own. They may still hit something by mistake if it is in the way
+			- prevent onBlockHarvested from being called twice by golems and break focus which was causing a dupe bug on some blocks like skulls
+			- everfull urn is now obtainable much earlier
+			- triple meat treat regen effect now last the proper amount of time
+			- infusion is now unlocked as its own research and not part of unlocking artifice anymore.
+			- many theorycraft cards that consumed items no longer do so.
+			- rebalanced theorycards in general so that there are easy, medium and hard choices - easy choices have no requisites, but give little progress (~10). Medium gives better progress (~25), but requires something simple to do. Hard choices give a lot of progress (~30-50), but also requires more effort
+			- instead of the highest category in theorycrafting getting a bonus, all other categories now get a penalty instead
+		Thaumcraft-1.10.2-6.0.BETA6.jar:
+			6.0.BETA6
+			- potions and related items now have most of their aspects calculated from the ingredients used to craft them
+			- fixed dust crafting related crash with crucibles
+			- golem logistics can now be completed with unfilled map
+			- crafting the fire focus now properly completes basic auromancy
+
+	Wireless Crafting Terminal (went from WirelessCraftingTerminal-1.10.2-2.1.41.jar to WirelessCraftingTerminal-1.10.2-2.1.49.jar):
+		WirelessCraftingTerminal-1.10.2-2.1.49.jar:
+			Fixed the WCT+EC2+Mek/Thermal crash
+
+	ZeroCore (went from zerocore-1.10.2-0.1.1.1.jar to zerocore-1.10.2-0.1.2.0.jar):
+		zerocore-1.10.2-0.1.2.0.jar:
+			- New Computer API for ComputerCraft and OpenComputers. See [https://github.com/ZeroNoRyouki/BigReactors/issues/162](https://github.com/ZeroNoRyouki/BigReactors/issues/162) for details
+			- The minimum supported version of OpenComputers is now MC1.10.2-1.7.1.150
+			- New render primitives
+			- Helper classes for graphics operations
+			- fixed derpiness of GameObjectsHandler
+			- internal refactoring of some classes and packages
+			- Bumped version to 0.1.2.0
+
+	p455w0rd's Library (went from p455w0rdslib-1.10.2-1.0.30.jar to p455w0rdslib-1.10.2-1.0.32.jar):
+		p455w0rdslib-1.10.2-1.0.32.jar:
+			Changed contrib file URL to new location
+
+* Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.11.1)
